@@ -1,0 +1,4962 @@
+{
+  "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR_AGREEMENT": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "agreement_date": {
+      "present": true,
+      "text": "as of the date first abovementioned",
+      "page": 13,
+      "confidence": "medium"
+    },
+    "effective_date": {
+      "present": true,
+      "text": "shall be effective immediately",
+      "page": 8,
+      "confidence": "high"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "governing_law": {
+      "present": true,
+      "text": "This Agreement is to be construed according to the laws of the State of Illinois",
+      "page": 13,
+      "confidence": "high"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": true,
+      "text": "If Company terminates the Agreement without cause and for reasons other than Distributor's failure to meet its minimum expectations",
+      "page": 9,
+      "confidence": "medium"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": true,
+      "text": "No assignment of this Agreement or any right accruing hereunder shall be made by the Distributor in whole or in part, without the prior written consent of the Company",
+      "page": 11,
+      "confidence": "high"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": true,
+      "text": "the Distributor must use all commercially reasonably efforts to purchase for sale to subdistributors the following minimum quantities of the Products from the Company",
+      "page": 2,
+      "confidence": "high"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": true,
+      "text": "this Agreement will not be construed as granting by implication, estopped or otherwise any license or other right of use",
+      "page": 10,
+      "confidence": "high"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": true,
+      "text": "any patent, copyright, trademark, trade name or other proprietary right owned by or licensed to the Company or any of its affiliates",
+      "page": 10,
+      "confidence": "high"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": true,
+      "text": "neither the Distributor nor the Company shall have a liability for consequential or liquidated damages pertaining to late delivery unless Company specifically acknowledges and agrees in writing to the same",
+      "page": 4,
+      "confidence": "high"
+    },
+    "liquidated_damages": {
+      "present": true,
+      "text": "neither the Distributor nor the Company shall have a liability for consequential or liquidated damages pertaining to late delivery unless Company specifically acknowledges and agrees in writing to the same",
+      "page": 4,
+      "confidence": "high"
+    },
+    "warranty_duration": {
+      "present": true,
+      "text": "for a period of twenty-four (24) months after delivery to Distributor's end-user",
+      "page": 6,
+      "confidence": "high"
+    },
+    "insurance": {
+      "present": true,
+      "text": "Company will carry a reasonable amount of product liability insurance through a reasonably acceptable products liability insurance company and will name the Distributor as an additional insured under that policy",
+      "page": 10,
+      "confidence": "high"
+    },
+    "covenant_not_to_sue": {
+      "present": true,
+      "text": "the Distributor (on behalf of itself and each of its affiliates) agrees not to commence, or provide any information to or otherwise assist any person or entity in connection with, any suit, action or proceeding contesting the ownership, validity or enforceability of any patent, copyright, trademark, trade name or other propriety right owned by or licensed to the Company",
+      "page": 11,
+      "confidence": "high"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": true,
+      "text": "Company and Distributor agree to indemnify, defend and hold each other harmless from any and all suits, claims, obligations, liabilities, damages, losses and the like (including attorneys' fees and costs) relating to or arising out of: (A) any breach of any material representations, warranties, covenants, obligations, agreements or duties in connection with this Agreement",
+      "page": 10,
+      "confidence": "high"
+    }
+  },
+  "WHITESMOKE_INC_11_08_2011-EX-10_26-PROMOTION_AND_DISTRIBUTION_AGREEMENT": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "agreement_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "effective_date": {
+      "present": true,
+      "text": "This Agreement shall commence on the Effective Date",
+      "page": 7,
+      "confidence": "high"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": true,
+      "text": "[ * ] may terminate this Agreement immediately upon written notice if there is a Change of Control of [ * ]",
+      "page": 7,
+      "confidence": "medium"
+    },
+    "change_of_control": {
+      "present": true,
+      "text": "[ * ] may terminate this Agreement immediately upon written notice if there is a Change of Control of [ * ]",
+      "page": 7,
+      "confidence": "high"
+    },
+    "anti_assignment": {
+      "present": true,
+      "text": "[ * ] may [ * ]any of its rights or obligations under this Agreement without the prior written consent of [ * ]",
+      "page": 13,
+      "confidence": "medium"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": true,
+      "text": "Distributor shall not, and shall not allow any third party to (except to the extent that such prohibitions are not permitted by law):",
+      "page": 4,
+      "confidence": "high"
+    },
+    "non_transferable_license": {
+      "present": true,
+      "text": "except as expressly set out in this Agreement, provide, sell, license, distribute, lease, lend, or disclose the Products to any third party;",
+      "page": 4,
+      "confidence": "high"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": true,
+      "text": "Nothing in this Agreement shall exclude or limit either party's liability for",
+      "page": 11,
+      "confidence": "high"
+    },
+    "cap_on_liability": {
+      "present": true,
+      "text": "each party's total liability under or in connection with this Agreement (whether in contract, tort or otherwise) arising in any Contract Year is limited to the greater of",
+      "page": 12,
+      "confidence": "high"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": true,
+      "text": "Distributor shall (and shall ensure that any Third Party Distributors shall) immediately stop reproducing the Products and offering or distributing Bundles;",
+      "page": 9,
+      "confidence": "high"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": true,
+      "text": "The indemnification obligations set out in Clause 10.4(b) shall exist only if Google: (a) promptly notifies Distributor of such claim,",
+      "page": 13,
+      "confidence": "high"
+    }
+  },
+  "LohaCompanyltd_20191209_F-1_EX-10_16_11917878_EX-10_16_Supply_Agreement": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": true,
+      "text": "THE BUYER: THE SELLER:",
+      "page": 4,
+      "confidence": "high"
+    },
+    "agreement_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "effective_date": {
+      "present": true,
+      "text": "The Contract becomes effective after signed by both parties",
+      "page": 4,
+      "confidence": "high"
+    },
+    "expiration_date": {
+      "present": true,
+      "text": "This Contract is valid for 5 years, beginning from and ended on",
+      "page": 4,
+      "confidence": "medium"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "governing_law": {
+      "present": true,
+      "text": "It will be governed by the law of the People's Republic of China",
+      "page": 4,
+      "confidence": "high"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": true,
+      "text": "In case the accident lasts for more than 10 weeks, the Buyers shall have the right to cancel the Contract.",
+      "page": 3,
+      "confidence": "high"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": true,
+      "text": "This final price is the confidential information. Dissemination, distribution or duplication of this price is strictly prohibited.",
+      "page": 4,
+      "confidence": "high"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": true,
+      "text": "The penalty, however, shall not exceed 5% of the total value of the goods involved in the late delivery.",
+      "page": 4,
+      "confidence": "high"
+    },
+    "liquidated_damages": {
+      "present": true,
+      "text": "The penalty, however, shall not exceed 5% of the total value of the goods involved in the late delivery. The rate of penalty is charged at 0.5% for every seven days, odd days less than seven days should be counted as seven days.",
+      "page": 4,
+      "confidence": "high"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": true,
+      "text": "To be covered by the Seller for 110% invoice value against All Risks and War Risk.",
+      "page": 2,
+      "confidence": "high"
+    },
+    "covenant_not_to_sue": {
+      "present": true,
+      "text": "neither party shall seek recourse to a law court nor other authorities to appeal for revision of the decision",
+      "page": 4,
+      "confidence": "high"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": true,
+      "text": "All disputes in connection with this Contract or the execution thereof shall be settled friendly through negotiations. In case no settlement can be reached, the case may then be submitted for arbitration",
+      "page": 4,
+      "confidence": "high"
+    },
+    "indemnification": {
+      "present": true,
+      "text": "the Sellers, in spite of the cancellation, shall still pay the aforesaid penalty to the Buyers without delay, the seller should refund the money received and pay the 30% of the total goods price of the penalty",
+      "page": 4,
+      "confidence": "high"
+    }
+  },
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10_3-WEB_SITE_HOSTING_AGREEMENT": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": true,
+      "text": "the parties have executed this Agreement",
+      "page": 5,
+      "confidence": "high"
+    },
+    "agreement_date": {
+      "present": true,
+      "text": "as of the date first set forth above",
+      "page": 5,
+      "confidence": "medium"
+    },
+    "effective_date": {
+      "present": true,
+      "text": "shall commence upon April 1, 1999",
+      "page": 4,
+      "confidence": "high"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": true,
+      "text": "shall automatically be renewed for one (1) or more one (1) month periods",
+      "page": 4,
+      "confidence": "high"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": true,
+      "text": "which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term",
+      "page": 4,
+      "confidence": "high"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": true,
+      "text": "Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.",
+      "page": 4,
+      "confidence": "high"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": true,
+      "text": "i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees.",
+      "page": 4,
+      "confidence": "high"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": true,
+      "text": "The Customer agrees to indemnify and hold harmless i-on, against any lawsuits, claims, damages, or liabilities",
+      "page": 4,
+      "confidence": "high"
+    }
+  },
+  "NELNETINC_04_08_2020-EX-1-JOINT_FILING_AGREEMENT": {
+    "document_name": {
+      "present": true,
+      "text": "JOINT FILING AGREEMENT",
+      "page": 1,
+      "confidence": "high"
+    },
+    "parties": {
+      "present": true,
+      "text": "Shelby J. Butterfield, BUTTERFIELD FAMILY TRUST",
+      "page": 1,
+      "confidence": "high"
+    },
+    "agreement_date": {
+      "present": true,
+      "text": "March 27, 2020",
+      "page": 1,
+      "confidence": "high"
+    },
+    "effective_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "governing_law": {
+      "present": true,
+      "text": "Securities Exchange Act of 1934",
+      "page": 1,
+      "confidence": "medium"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    }
+  },
+  "ADAMSGOLFINC_03_21_2005-EX-10_17-ENDORSEMENT_AGREEMENT": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": true,
+      "text": "the parties hereto",
+      "page": 8,
+      "confidence": "high"
+    },
+    "agreement_date": {
+      "present": true,
+      "text": "the date first set forth above",
+      "page": 8,
+      "confidence": "medium"
+    },
+    "effective_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": true,
+      "text": "In the event that CONSULTANT is prevented from competing for reasons outside his control",
+      "page": 3,
+      "confidence": "medium"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": true,
+      "text": "In the event of termination of this Agreement, ADAMS GOLF shall cease using the name and/or likeness of CONSULTANT in advertising within [*****] days",
+      "page": 7,
+      "confidence": "high"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": true,
+      "text": "Neither ADAMS GOLF nor CONSULTANT shall have the right to grant sublicenses hereunder or to assign, alienate or otherwise transfer any of its rights or obligations hereunder",
+      "page": 7,
+      "confidence": "high"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": true,
+      "text": "CONSULTANT shall achieve a satisfactory record of play in a minimum of [* ****] professional golf association events",
+      "page": 3,
+      "confidence": "high"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": true,
+      "text": "CONSULTANT hereby gives and grants to ADAMS GOLF the exclusive right and license to use CONSULTANT'S ENDORSEMENT",
+      "page": 1,
+      "confidence": "high"
+    },
+    "non_transferable_license": {
+      "present": true,
+      "text": "Neither ADAMS GOLF nor CONSULTANT shall have the right to grant sublicenses hereunder or to assign, alienate or otherwise transfer any of its rights or obligations hereunder",
+      "page": 7,
+      "confidence": "high"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": true,
+      "text": "CONSULTANT agrees to protect, indemnify and hold ADAMS GOLF harmless from any and all liability, claims, causes of action, suits, damages and expenses",
+      "page": 4,
+      "confidence": "high"
+    },
+    "cap_on_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "liquidated_damages": {
+      "present": true,
+      "text": "he shall repay ADAMS GOLF an amount per event for each event under [*****] achieved in the given calendar year",
+      "page": 3,
+      "confidence": "high"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": true,
+      "text": "In the event a dispute arises under this Agreement which cannot be resolved, such dispute shall be submitted to arbitration and resolved by a panel of three arbitrators",
+      "page": 8,
+      "confidence": "high"
+    },
+    "indemnification": {
+      "present": true,
+      "text": "CONSULTANT agrees to protect, indemnify and hold ADAMS GOLF harmless from any and all liability, claims, causes of action, suits, damages and expenses",
+      "page": 4,
+      "confidence": "high"
+    }
+  },
+  "KIROMICBIOPHARMA_INC_05_11_2020-EX-10_23-CONSULTING_AGREEMENT": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": true,
+      "text": "KIROMIC, INC: CONSULTANT:",
+      "page": 6,
+      "confidence": "high"
+    },
+    "agreement_date": {
+      "present": true,
+      "text": "as of the Effective Date",
+      "page": 6,
+      "confidence": "medium"
+    },
+    "effective_date": {
+      "present": true,
+      "text": "as of the Effective Date",
+      "page": 6,
+      "confidence": "medium"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": true,
+      "text": "Upon the termination of this Agreement, or upon Company's earlier requests, Consultant will deliver to Company all property relating to, and all tangible embodiments of, Inventions in Consultant's possession or control.",
+      "page": 2,
+      "confidence": "medium"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": true,
+      "text": "Company is hereby granted and shall have a non-exclusive, royalty-free, perpetual, irrevocable, worldwide license",
+      "page": 2,
+      "confidence": "high"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": true,
+      "text": "perpetual, irrevocable, worldwide license",
+      "page": 2,
+      "confidence": "high"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": true,
+      "text": "including reasonable attorneys' fees and costs of suit",
+      "page": 1,
+      "confidence": "high"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": true,
+      "text": "Any controversy or claim arising out of or relating to this agreement or breach thereof, shall be settled by binding arbitration controlled by the rules of the American Arbitration Association.",
+      "page": 5,
+      "confidence": "high"
+    },
+    "indemnification": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    }
+  },
+  "VEONEER_INC_02_21_2020-EX-10_11-JOINT_VENTURE_AGREEMENT": {
+    "document_name": {
+      "present": true,
+      "text": "Amendment and Termination of Joint Venture Agreement",
+      "page": 1,
+      "confidence": "high"
+    },
+    "parties": {
+      "present": true,
+      "text": "the Veoneer Parties, the Nissin Parties and Autoliv AB",
+      "page": 2,
+      "confidence": "high"
+    },
+    "agreement_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "effective_date": {
+      "present": true,
+      "text": "effective as of the later of the VNBJ Closing and the VNBZ Closing",
+      "page": 2,
+      "confidence": "high"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": true,
+      "text": "the JV Agreement shall immediately cease to have any application or effect with respect to VNBJ",
+      "page": 2,
+      "confidence": "high"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": true,
+      "text": "the termination of the JV Agreement with respect to VNBJ, VNBZ or the Veoneer Parties shall not release any Veoneer Party or any Nissin Party from liability for the breach of any of its representations, warranties, covenants or agreements",
+      "page": 2,
+      "confidence": "high"
+    },
+    "cap_on_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": true,
+      "text": "the Nissin Parties agree to cause each of VNBJ and VNBZ to comply with Sections 4.3.2 and 4.3.3 of the JV Agreement with respect to the indemnification or reimbursement, as applicable, of all Directors and Officers",
+      "page": 3,
+      "confidence": "high"
+    }
+  },
+  "DovaPharmaceuticalsInc_20181108_10-Q_EX-10_2_11414857_EX-10_2_Promotion_Agreemen": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "agreement_date": {
+      "present": true,
+      "text": "as of the Effective Date",
+      "page": 52,
+      "confidence": "high"
+    },
+    "effective_date": {
+      "present": true,
+      "text": "shall have the meaning set forth in the preamble to this Agreement",
+      "page": 5,
+      "confidence": "high"
+    },
+    "expiration_date": {
+      "present": true,
+      "text": "the four (4) year anniversary of the Effective Date",
+      "page": 46,
+      "confidence": "high"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": true,
+      "text": "upon [***] written notice to the other Party",
+      "page": 47,
+      "confidence": "medium"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": true,
+      "text": "Either Party shall have the right to terminate this Agreement before the end of the Term for its convenience upon [***] written notice to the other Party",
+      "page": 47,
+      "confidence": "high"
+    },
+    "change_of_control": {
+      "present": true,
+      "text": "Dova may assign this Agreement to a successor in interest in connection with the sale or other transfer of all or substantially all of Dova's assets or rights relating to the Product",
+      "page": 49,
+      "confidence": "high"
+    },
+    "anti_assignment": {
+      "present": true,
+      "text": "this Agreement may not be assigned or otherwise transferred, nor may any rights or obligations hereunder be assigned or transferred, by either Party, without the written consent of the other Party",
+      "page": 49,
+      "confidence": "high"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": true,
+      "text": "Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest in and to such Product Materials (and content) and Product Labeling (and content)",
+      "page": 23,
+      "confidence": "high"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": true,
+      "text": "Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest",
+      "page": 23,
+      "confidence": "medium"
+    },
+    "affiliate_license_licensee": {
+      "present": true,
+      "text": "Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest",
+      "page": 23,
+      "confidence": "medium"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": true,
+      "text": "Dova shall reasonably cooperate in any such inspection or audit conducted by Valeant.",
+      "page": 35,
+      "confidence": "high"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": true,
+      "text": "IN NO EVENT SHALL DOVA (OR ITS AFFILIATES) OR VALEANT (OR ITS AFFILIATES) BE LIABLE TO THE OTHER OR ANY OF THE OTHER PARTY'S AFFILIATES FOR ANY CONSEQUENTIAL, INCIDENTAL, INDIRECT, SPECIAL, PUNITIVE OR EXEMPLARY DAMAGES",
+      "page": 46,
+      "confidence": "high"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": true,
+      "text": "Each Party acknowledges and agrees that during the Term, it shall maintain, through purchase or self- insurance, adequate insurance, including products liability coverage and comprehensive general liability insurance",
+      "page": 46,
+      "confidence": "high"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": true,
+      "text": "13.11 Third Party Beneficiaries.",
+      "page": 2,
+      "confidence": "high"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": true,
+      "text": "11.1 Indemnification by Dova.",
+      "page": 1,
+      "confidence": "high"
+    }
+  },
+  "PACIRA_PHARMACEUTICALS__INC__-_A_R_STRATEGIC_LICENSING__DISTRIBUTION_AND_MARKETI": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": true,
+      "text": "the Parties",
+      "page": 5,
+      "confidence": "high"
+    },
+    "agreement_date": {
+      "present": true,
+      "text": "on the Agreement Date",
+      "page": 5,
+      "confidence": "high"
+    },
+    "effective_date": {
+      "present": true,
+      "text": "on the Effective Date",
+      "page": 5,
+      "confidence": "high"
+    },
+    "expiration_date": {
+      "present": true,
+      "text": "until the expiration of the last valid claim in the PPI Patents covering the Product in any country of the Territory",
+      "page": 31,
+      "confidence": "high"
+    },
+    "renewal_term": {
+      "present": true,
+      "text": "consecutive periods of two (2) years each",
+      "page": 31,
+      "confidence": "high"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": true,
+      "text": "at least one hundred eighty (180) days prior to the end of the Initial Term or any renewal term",
+      "page": 31,
+      "confidence": "high"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": true,
+      "text": "EKR may terminate this Agreement for convenience at any time upon [**] ([**]) days prior, written notice to PPI",
+      "page": 33,
+      "confidence": "high"
+    },
+    "change_of_control": {
+      "present": true,
+      "text": "Should there be a Change of Control of either Party resulting in the control of such Party by a Third Party which markets or sells a Competing Product in any part of the Territory, then the rights under this Agreement may not be assigned without the express consent of the other Party",
+      "page": 37,
+      "confidence": "high"
+    },
+    "anti_assignment": {
+      "present": true,
+      "text": "neither Party shall, nor shall it purport to, assign, license, transfer or change any of its rights or obligations under this Agreement without the prior written consent of the other",
+      "page": 36,
+      "confidence": "high"
+    },
+    "revenue_profit_sharing": {
+      "present": true,
+      "text": "EKR shall pay to PPI a royalty (\"Royalty\") equal to (a) $[**] for each [**] mg Vial of Product sold during the Term",
+      "page": 20,
+      "confidence": "high"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": true,
+      "text": "plus (b) an additional [**]% of any post Effective Date incremental price increase implemented by EKR",
+      "page": 20,
+      "confidence": "medium"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": true,
+      "text": "PPI hereby grants to EKR a royalty free and exclusive license (with the right to sublicense) to use the Trademarks in the Territory",
+      "page": 6,
+      "confidence": "high"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": true,
+      "text": "either Party may assign its rights hereunder to an Affiliate or to any successor by merger, consolidation, sale of stock or other equity interests",
+      "page": 36,
+      "confidence": "high"
+    },
+    "affiliate_license_licensee": {
+      "present": true,
+      "text": "either Party may assign its rights hereunder to an Affiliate or to any successor by merger, consolidation, sale of stock or other equity interests",
+      "page": 36,
+      "confidence": "high"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": true,
+      "text": "the Trademark license granted under Section 2.3 shall continue in effect following such termination on a perpetual basis",
+      "page": 34,
+      "confidence": "high"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": true,
+      "text": "except for death or personal injury caused by the negligence of PPI or its employees while acting in the course of their employment",
+      "page": 28,
+      "confidence": "high"
+    },
+    "cap_on_liability": {
+      "present": true,
+      "text": "Any and all liability of PPI to EKR ... shall be limited ... to [**] US Dollars ($[**])",
+      "page": 28,
+      "confidence": "high"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": true,
+      "text": "Each Party shall maintain, at its own cost, comprehensive product liability insurance, general commercial liability insurance and business interruption insurance",
+      "page": 27,
+      "confidence": "high"
+    },
+    "covenant_not_to_sue": {
+      "present": true,
+      "text": "no Party shall have any remedy in respect of misrepresentation or untrue statement made by the other Party or for any breach of warranty which is not contained in this Agreement",
+      "page": 38,
+      "confidence": "high"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": true,
+      "text": "The dispute shall be determined by a single independent impartial expert who shall be agreed between the Parties or, in the absence of agreement between the Parties within 30 days of the service of a Referral Notice, be appointed by the American Arbitration Association",
+      "page": 43,
+      "confidence": "high"
+    },
+    "indemnification": {
+      "present": true,
+      "text": "The indemnifying Party shall have the option to assume the defense thereof by election in writing within thirty (30) days of receipt of such notice",
+      "page": 27,
+      "confidence": "high"
+    }
+  },
+  "MetLife__Inc__-_Remarketing_Agreement": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": true,
+      "text": "the Company and the Remarketing Agents",
+      "page": 30,
+      "confidence": "high"
+    },
+    "agreement_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "effective_date": {
+      "present": true,
+      "text": "on the effective date of the resignation or removal of such Remarketing Agent pursuant to Section 7",
+      "page": 30,
+      "confidence": "medium"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": true,
+      "text": "by notice given to the Company prior to 12:00 noon, New York City time on the Remarketing Settlement Date",
+      "page": 30,
+      "confidence": "high"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": true,
+      "text": "This Remarketing Agreement shall terminate (i) in the event of a Remarketing that is not a Successful Remarketing or (ii) as to any Remarketing Agent who resigns or is removed",
+      "page": 30,
+      "confidence": "high"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": true,
+      "text": "No purchaser of any of the Securities pursuant to this Remarketing Agreement shall be deemed a successor or assign by reason merely of such purchase.",
+      "page": 31,
+      "confidence": "high"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": true,
+      "text": "then each indemnifying party shall contribute to the amount paid or payable by such indemnified party as a result of such losses, claims, damages or liabilities",
+      "page": 27,
+      "confidence": "high"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": true,
+      "text": "each Insurance Subsidiary has all other approvals, orders, consents, authorizations, licenses, certificates, permits, registrations and qualifications",
+      "page": 12,
+      "confidence": "high"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": true,
+      "text": "The Company and each of the Remarketing Agents hereby irrevocably waives, to the fullest extent permitted by applicable law, any and all right to trial by jury in any legal proceeding arising out of or relating to this Remarketing Agreement or the transactions contemplated hereby.",
+      "page": 33,
+      "confidence": "high"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": true,
+      "text": "then each indemnifying party shall contribute to the amount paid or payable by such indemnified party as a result of such losses, claims, damages or liabilities (or actions in respect thereof) in such proportion as is appropriate to reflect the relative benefits received by the Company on the one hand and the Remarketing Agents on the other from the Remarketing of the Remarketed Securities to which any such loss, claim, damage or liability (or action in respect thereof) relates.",
+      "page": 27,
+      "confidence": "high"
+    }
+  },
+  "FTENETWORKS_INC_02_18_2016-EX-99_4-STRATEGIC_ALLIANCE_AGREEMENT": {
+    "document_name": {
+      "present": true,
+      "text": "STRATEGIC ALLIANCE AGREEMENT \"EDGE-FTE\"",
+      "page": 9,
+      "confidence": "high"
+    },
+    "parties": {
+      "present": true,
+      "text": "FTE agrees to perform its scope of work, in accordance with the terms and conditions of this in accordance with the terms and conditions of the respective issued Purchase Order(s)... for a communications service provider Mediacom, LLC (the \"Customer\")",
+      "page": 1,
+      "confidence": "high"
+    },
+    "agreement_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "effective_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": true,
+      "text": "After the Initial Term, this Agreement shall continue on a month to month basis",
+      "page": 1,
+      "confidence": "high"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": true,
+      "text": "thirty (30) days prior written notice",
+      "page": 1,
+      "confidence": "high"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": true,
+      "text": "After the Initial Term, this Agreement shall continue on a month to month basis until terminated by either party upon thirty (30) days prior written notice to the other setting forth the effective date of such termination.",
+      "page": 1,
+      "confidence": "high"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": true,
+      "text": "All Confidential Information furnished to the Receiving Party by the Disclosing Party is the sole and exclusive property of the Disclosing Party or its suppliers or Customers",
+      "page": 13,
+      "confidence": "high"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": true,
+      "text": "limits of not less than $5,000,000 in excess of all the above-referenced Commercial General Liability, Employer's Liability and Business Auto Liability",
+      "page": 5,
+      "confidence": "high"
+    },
+    "liquidated_damages": {
+      "present": true,
+      "text": "Subcontractor shall pay as liquidated damages two times the then monthly salary of the employee for a three-month period of time",
+      "page": 12,
+      "confidence": "high"
+    },
+    "warranty_duration": {
+      "present": true,
+      "text": "These warranties extend to the future performance of the materials and shall continue for the longer of (a) the warranty period applicable to EDGE' sales to Customer of the material or of products which incorporate the material, (b) one year after the material is accepted by EDGE or (c) such greater period as may be specified elsewhere in this Agreement.",
+      "page": 7,
+      "confidence": "high"
+    },
+    "insurance": {
+      "present": true,
+      "text": "Commercial General Liability Insurance providing the limits of coverage written on an occurrence basis, in no event less than $1,000,000 combined single limit",
+      "page": 5,
+      "confidence": "high"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": true,
+      "text": "Subcontractor shall indemnify, defend and hold harmless EDGE and Customer and both of their subsidiaries, directors, shareholders, partners, principals (disclosed or undisclosed), employees, agents and representatives",
+      "page": 6,
+      "confidence": "high"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": true,
+      "text": "All claims, disputes and other matters in question arising out of or relating to this subcontract with a breach thereof, except for claims which have been waived by the making or acceptance of final payment, shall be decided by mediation or non-binding arbitration",
+      "page": 10,
+      "confidence": "high"
+    },
+    "indemnification": {
+      "present": true,
+      "text": "Subcontractor shall indemnify, defend and hold harmless EDGE and Customer and both of their subsidiaries, directors, shareholders, partners, principals (disclosed or undisclosed), employees, agents and representatives (hereinafter the 'Indemnitees') from and against any and all claims, demands, damages, actions, causes of action, suits, losses, judgments, obligations, and any liabilities, costs and expenses",
+      "page": 6,
+      "confidence": "high"
+    }
+  },
+  "DOMINIADVISORTRUST_02_18_2005-EX-99__H__2_-SPONSORSHIP_AGREEMENT": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": true,
+      "text": "the parties hereto",
+      "page": 1,
+      "confidence": "medium"
+    },
+    "agreement_date": {
+      "present": true,
+      "text": "as of the day and year first above written",
+      "page": 3,
+      "confidence": "medium"
+    },
+    "effective_date": {
+      "present": true,
+      "text": "as of the day and year first above written",
+      "page": 3,
+      "confidence": "medium"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": true,
+      "text": "not less than 60 days' written notice",
+      "page": 3,
+      "confidence": "high"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": true,
+      "text": "unless terminated as set forth in this Section 6",
+      "page": 3,
+      "confidence": "medium"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": true,
+      "text": "fees and expenses of the Trust's independent auditors and accountants",
+      "page": 2,
+      "confidence": "medium"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": true,
+      "text": "except for willful misfeasance, bad faith or gross negligence in the performance of its duties, or by reason of the reckless disregard of its obligations and duties hereunder",
+      "page": 3,
+      "confidence": "high"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": true,
+      "text": "fidelity bond and errors and omissions insurance coverage",
+      "page": 2,
+      "confidence": "high"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    }
+  },
+  "PfHospitalityGroupInc_20150923_10-12G_EX-10_1_9266710_EX-10_1_Franchise_Agreemen": {
+    "document_name": {
+      "present": true,
+      "text": "FRANCHISE AGREEMENT",
+      "page": 2,
+      "confidence": "high"
+    },
+    "parties": {
+      "present": true,
+      "text": "FRANCHISEE MEMBER",
+      "page": 3,
+      "confidence": "high"
+    },
+    "agreement_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "effective_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": true,
+      "text": "thirty (30) days after written notice of default from us",
+      "page": 41,
+      "confidence": "high"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": true,
+      "text": "the term 'Post-Term Period' shall mean a continuous uninterrupted period of two (2) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement;",
+      "page": 2,
+      "confidence": "high"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": true,
+      "text": "we may exercise this option by delivering a notice of intent to purchase to you within 30 days after the expiration or termination of this Agreement.",
+      "page": 44,
+      "confidence": "medium"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": true,
+      "text": "You hereby grant us an irrevocable power of attorney, coupled with an interest, to execute, in your name, any of such financing statements, continuation statements, notices of lien, assignments or other documents.",
+      "page": 8,
+      "confidence": "high"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": true,
+      "text": "You agree to pay all damages, costs, and expenses, including, but not limited to, reasonable attorneys' fees, that we incur",
+      "page": 45,
+      "confidence": "high"
+    },
+    "cap_on_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "liquidated_damages": {
+      "present": true,
+      "text": "The payments called for in Section 16.4 [Liquidated Damages] above constitute liquidated damages for causing the premature termination of this Agreement",
+      "page": 44,
+      "confidence": "high"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": true,
+      "text": "workers'-compensation coverage in the amount of at least $100,000/$500,000/$100,000, unemployment insurance and employer's liability insurance",
+      "page": 21,
+      "confidence": "high"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": true,
+      "text": "Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee.",
+      "page": 2,
+      "confidence": "high"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": true,
+      "text": "a final order of a duly authorized arbitrator, panel of arbitrators, or a court of competent jurisdiction",
+      "page": 2,
+      "confidence": "medium"
+    },
+    "indemnification": {
+      "present": true,
+      "text": "You agree to pay all costs and expenses that we reasonably incur in enforcing this Section 17, including reasonable attorneys' fees.",
+      "page": 46,
+      "confidence": "high"
+    }
+  },
+  "CerenceInc_20191002_8-K_EX-10_4_11827494_EX-10_4_Intellectual_Property_Agreement": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": true,
+      "text": "each of the Parties",
+      "page": 15,
+      "confidence": "high"
+    },
+    "agreement_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "effective_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": true,
+      "text": "neither this Agreement nor any of the rights, interests or obligations under this Agreement, including the licenses granted pursuant to this Agreement, shall be assigned, in whole or in part, by operation of Law or otherwise by either Party without the prior written consent of the other Party",
+      "page": 13,
+      "confidence": "high"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": true,
+      "text": "The Party receiving the license hereunder acknowledges and agrees that the Party (or the applicable member of its Group) granting the license is the sole and exclusive owner of the Intellectual Property Rights so licensed.",
+      "page": 10,
+      "confidence": "high"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": true,
+      "text": "the applicable member of its Group",
+      "page": 10,
+      "confidence": "medium"
+    },
+    "affiliate_license_licensee": {
+      "present": true,
+      "text": "a member of the Nuance Group",
+      "page": 10,
+      "confidence": "medium"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": true,
+      "text": "Technology Assets other than to commercial source code escrow providers who are only permitted to make such source code available to third parties that have entered into an escrow agreement with a member of the Nuance Group and escrow provider.",
+      "page": 10,
+      "confidence": "high"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": true,
+      "text": "none of Nuance, SpinCo or any other member of either Group shall in any event have any Liability to the other or to any other member of the other's Group under this Agreement for any indirect, special, punitive or consequential damages",
+      "page": 12,
+      "confidence": "high"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": true,
+      "text": "Section 11.07. Third-Party Beneficiaries",
+      "page": 16,
+      "confidence": "high"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    }
+  },
+  "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99_D_IV__11720968_EX-99_D_IV__": {
+    "document_name": {
+      "present": true,
+      "text": "ENDORSEMENT",
+      "page": 1,
+      "confidence": "high"
+    },
+    "parties": {
+      "present": true,
+      "text": "Thrivent Financial for Lutherans",
+      "page": 1,
+      "confidence": "high"
+    },
+    "agreement_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "effective_date": {
+      "present": true,
+      "text": "July 1, 2019",
+      "page": 1,
+      "confidence": "high"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "change_of_control": {
+      "present": true,
+      "text": "Thrivent Life Insurance Company has been dissolved. All assets and related liabilities of Thrivent Life Insurance Company have been transferred to Thrivent Financial for Lutherans.",
+      "page": 1,
+      "confidence": "high"
+    },
+    "anti_assignment": {
+      "present": true,
+      "text": "You may transfer ownership of this contract in accordance with our bylaws. Society membership rights and privileges cannot be transferred or assigned.",
+      "page": 2,
+      "confidence": "high"
+    },
+    "revenue_profit_sharing": {
+      "present": true,
+      "text": "Each year, we will determine our divisible surplus. This contract's share, if any, will be credited as a dividend.",
+      "page": 1,
+      "confidence": "high"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": true,
+      "text": "You may transfer ownership of this contract in accordance with our bylaws.",
+      "page": 2,
+      "confidence": "high"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": true,
+      "text": "Thrivent Financial for Lutherans now has all obligations under this contract.",
+      "page": 1,
+      "confidence": "high"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    }
+  },
+  "ReynoldsConsumerProductsInc_20191115_S-1_EX-10_18_11896469_EX-10_18_Supply_Agree": {
+    "document_name": {
+      "present": true,
+      "text": "AGREEMENT",
+      "page": 1,
+      "confidence": "high"
+    },
+    "parties": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "agreement_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "effective_date": {
+      "present": true,
+      "text": "The 'Term' of this Agreement will commence on the Effective Date",
+      "page": 1,
+      "confidence": "high"
+    },
+    "expiration_date": {
+      "present": true,
+      "text": "the first anniversary of the expiration date of the last Purchase Schedule",
+      "page": 1,
+      "confidence": "high"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": true,
+      "text": "a termination date elected by a Party in a written notice delivered to the other Party any time after the expiration of the last Purchase Schedule",
+      "page": 1,
+      "confidence": "high"
+    },
+    "governing_law": {
+      "present": true,
+      "text": "in compliance with Applicable Law",
+      "page": 19,
+      "confidence": "medium"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    }
+  },
+  "IntegrityFunds_20200121_485BPOS_EX-99_E_UNDR_CONTR_11948727_EX-99_E_UNDR_CONTR_S": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "agreement_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "effective_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    }
+  },
+  "PREMIERBIOMEDICALINC_05_14_2020-EX-10_2-INTELLECTUAL_PROPERTY_AGREEMENT": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "agreement_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "effective_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    }
+  },
+  "SIBANNAC_INC_12_04_2017-EX-2_1-Strategic_Alliance_Agreement": {
+    "document_name": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "parties": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "agreement_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "effective_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "expiration_date": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "renewal_term": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "notice_period_to_terminate_renewal": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "governing_law": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "most_favored_nation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_compete": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "exclusivity": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "no_solicitation": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_disparagement": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "termination_for_convenience": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "change_of_control": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "anti_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "revenue_profit_sharing": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "price_restrictions": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "minimum_commitment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "volume_restriction": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "ip_ownership_assignment": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "joint_ip_ownership": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "license_grant": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "non_transferable_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensor": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "affiliate_license_licensee": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "unlimited_all_you_can_eat_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "irrevocable_or_perpetual_license": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "source_code_escrow": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "post_termination_services": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "audit_rights": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "uncapped_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "cap_on_liability": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "liquidated_damages": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "warranty_duration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "insurance": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "covenant_not_to_sue": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "third_party_beneficiary": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "class_action_waiver": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "arbitration": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    },
+    "indemnification": {
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
+    }
+  }
+}

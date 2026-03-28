@@ -1,0 +1,898 @@
+{
+  "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR_AGREEMENT": {
+    "overall_risk": "LOW",
+    "risk_score": 20,
+    "flags": [
+      {
+        "clause": "indemnification",
+        "level": "MEDIUM",
+        "reason": "Indemnification clause present \u2014 review scope carefully.",
+        "recommendation": "Ensure indemnification is mutual and capped.",
+        "extracted_text": "Company and Distributor agree to indemnify, defend and hold each other harmless from any and all suits, claims, obligations, liabilities, damages, losses and the like (including attorneys' fees and costs) relating to or arising out of: (A) any breach of any material representations, warranties, covenants, obligations, agreements or duties in connection with this Agreement",
+        "page": 10
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      }
+    ],
+    "summary": "1 medium-risk issue, 1 low-risk note",
+    "high_count": 0,
+    "medium_count": 1,
+    "low_count": 1
+  },
+  "WHITESMOKE_INC_11_08_2011-EX-10_26-PROMOTION_AND_DISTRIBUTION_AGREEMENT": {
+    "overall_risk": "HIGH",
+    "risk_score": 65,
+    "flags": [
+      {
+        "clause": "uncapped_liability",
+        "level": "HIGH",
+        "reason": "Explicit uncapped liability clause found.",
+        "recommendation": "Negotiate mutual cap on liability before signing.",
+        "extracted_text": "Nothing in this Agreement shall exclude or limit either party's liability for",
+        "page": 11
+      },
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "indemnification",
+        "level": "MEDIUM",
+        "reason": "Indemnification clause present \u2014 review scope carefully.",
+        "recommendation": "Ensure indemnification is mutual and capped.",
+        "extracted_text": "The indemnification obligations set out in Clause 10.4(b) shall exist only if Google: (a) promptly notifies Distributor of such claim,",
+        "page": 13
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      }
+    ],
+    "summary": "1 high-risk issue, 2 medium-risk issues, 1 low-risk note",
+    "high_count": 1,
+    "medium_count": 2,
+    "low_count": 1
+  },
+  "LohaCompanyltd_20191209_F-1_EX-10_16_11917878_EX-10_16_Supply_Agreement": {
+    "overall_risk": "LOW",
+    "risk_score": 30,
+    "flags": [
+      {
+        "clause": "indemnification",
+        "level": "MEDIUM",
+        "reason": "Indemnification clause present \u2014 review scope carefully.",
+        "recommendation": "Ensure indemnification is mutual and capped.",
+        "extracted_text": "the Sellers, in spite of the cancellation, shall still pay the aforesaid penalty to the Buyers without delay, the seller should refund the money received and pay the 30% of the total goods price of the penalty",
+        "page": 4
+      },
+      {
+        "clause": "anti_assignment",
+        "level": "LOW",
+        "reason": "No anti-assignment clause. Contract rights may be freely transferred.",
+        "recommendation": "Consider adding assignment restriction if partnership is key.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "arbitration",
+        "level": "LOW",
+        "reason": "Arbitration clause found. Court litigation may be waived.",
+        "recommendation": "Review arbitration rules, venue, and cost allocation.",
+        "extracted_text": "All disputes in connection with this Contract or the execution thereof shall be settled friendly through negotiations. In case no settlement can be reached, the case may then be submitted for arbitration",
+        "page": 4
+      }
+    ],
+    "summary": "1 medium-risk issue, 3 low-risk notes",
+    "high_count": 0,
+    "medium_count": 1,
+    "low_count": 3
+  },
+  "CENTRACKINTERNATIONALINC_10_29_1999-EX-10_3-WEB_SITE_HOSTING_AGREEMENT": {
+    "overall_risk": "MEDIUM",
+    "risk_score": 40,
+    "flags": [
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "indemnification",
+        "level": "MEDIUM",
+        "reason": "Indemnification clause present \u2014 review scope carefully.",
+        "recommendation": "Ensure indemnification is mutual and capped.",
+        "extracted_text": "The Customer agrees to indemnify and hold harmless i-on, against any lawsuits, claims, damages, or liabilities",
+        "page": 4
+      },
+      {
+        "clause": "anti_assignment",
+        "level": "LOW",
+        "reason": "No anti-assignment clause. Contract rights may be freely transferred.",
+        "recommendation": "Consider adding assignment restriction if partnership is key.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      }
+    ],
+    "summary": "2 medium-risk issues, 2 low-risk notes",
+    "high_count": 0,
+    "medium_count": 2,
+    "low_count": 2
+  },
+  "NELNETINC_04_08_2020-EX-1-JOINT_FILING_AGREEMENT": {
+    "overall_risk": "HIGH",
+    "risk_score": 70,
+    "flags": [
+      {
+        "clause": "cap_on_liability",
+        "level": "HIGH",
+        "reason": "No cap on liability found. Party may be exposed to unlimited damages.",
+        "recommendation": "Negotiate a liability cap, typically 12 months of fees paid.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "termination_for_convenience",
+        "level": "HIGH",
+        "reason": "No termination for convenience clause. Party may be locked into contract.",
+        "recommendation": "Add mutual termination for convenience with 30-day notice.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "anti_assignment",
+        "level": "LOW",
+        "reason": "No anti-assignment clause. Contract rights may be freely transferred.",
+        "recommendation": "Consider adding assignment restriction if partnership is key.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      }
+    ],
+    "summary": "2 high-risk issues, 2 low-risk notes",
+    "high_count": 2,
+    "medium_count": 0,
+    "low_count": 2
+  },
+  "ADAMSGOLFINC_03_21_2005-EX-10_17-ENDORSEMENT_AGREEMENT": {
+    "overall_risk": "HIGH",
+    "risk_score": 100,
+    "flags": [
+      {
+        "clause": "cap_on_liability",
+        "level": "HIGH",
+        "reason": "No cap on liability found. Party may be exposed to unlimited damages.",
+        "recommendation": "Negotiate a liability cap, typically 12 months of fees paid.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "uncapped_liability",
+        "level": "HIGH",
+        "reason": "Explicit uncapped liability clause found.",
+        "recommendation": "Negotiate mutual cap on liability before signing.",
+        "extracted_text": "CONSULTANT agrees to protect, indemnify and hold ADAMS GOLF harmless from any and all liability, claims, causes of action, suits, damages and expenses",
+        "page": 4
+      },
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "indemnification",
+        "level": "MEDIUM",
+        "reason": "Indemnification clause present \u2014 review scope carefully.",
+        "recommendation": "Ensure indemnification is mutual and capped.",
+        "extracted_text": "CONSULTANT agrees to protect, indemnify and hold ADAMS GOLF harmless from any and all liability, claims, causes of action, suits, damages and expenses",
+        "page": 4
+      },
+      {
+        "clause": "non_compete",
+        "level": "MEDIUM",
+        "reason": "Non-compete clause found. May restrict future business activities.",
+        "recommendation": "Review scope, duration, and geographic restrictions.",
+        "extracted_text": "In the event that CONSULTANT is prevented from competing for reasons outside his control",
+        "page": 3
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "arbitration",
+        "level": "LOW",
+        "reason": "Arbitration clause found. Court litigation may be waived.",
+        "recommendation": "Review arbitration rules, venue, and cost allocation.",
+        "extracted_text": "In the event a dispute arises under this Agreement which cannot be resolved, such dispute shall be submitted to arbitration and resolved by a panel of three arbitrators",
+        "page": 8
+      }
+    ],
+    "summary": "2 high-risk issues, 3 medium-risk issues, 2 low-risk notes",
+    "high_count": 2,
+    "medium_count": 3,
+    "low_count": 2
+  },
+  "KIROMICBIOPHARMA_INC_05_11_2020-EX-10_23-CONSULTING_AGREEMENT": {
+    "overall_risk": "LOW",
+    "risk_score": 30,
+    "flags": [
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "anti_assignment",
+        "level": "LOW",
+        "reason": "No anti-assignment clause. Contract rights may be freely transferred.",
+        "recommendation": "Consider adding assignment restriction if partnership is key.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "arbitration",
+        "level": "LOW",
+        "reason": "Arbitration clause found. Court litigation may be waived.",
+        "recommendation": "Review arbitration rules, venue, and cost allocation.",
+        "extracted_text": "Any controversy or claim arising out of or relating to this agreement or breach thereof, shall be settled by binding arbitration controlled by the rules of the American Arbitration Association.",
+        "page": 5
+      }
+    ],
+    "summary": "1 medium-risk issue, 3 low-risk notes",
+    "high_count": 0,
+    "medium_count": 1,
+    "low_count": 3
+  },
+  "VEONEER_INC_02_21_2020-EX-10_11-JOINT_VENTURE_AGREEMENT": {
+    "overall_risk": "HIGH",
+    "risk_score": 100,
+    "flags": [
+      {
+        "clause": "cap_on_liability",
+        "level": "HIGH",
+        "reason": "No cap on liability found. Party may be exposed to unlimited damages.",
+        "recommendation": "Negotiate a liability cap, typically 12 months of fees paid.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "uncapped_liability",
+        "level": "HIGH",
+        "reason": "Explicit uncapped liability clause found.",
+        "recommendation": "Negotiate mutual cap on liability before signing.",
+        "extracted_text": "the termination of the JV Agreement with respect to VNBJ, VNBZ or the Veoneer Parties shall not release any Veoneer Party or any Nissin Party from liability for the breach of any of its representations, warranties, covenants or agreements",
+        "page": 2
+      },
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "indemnification",
+        "level": "MEDIUM",
+        "reason": "Indemnification clause present \u2014 review scope carefully.",
+        "recommendation": "Ensure indemnification is mutual and capped.",
+        "extracted_text": "the Nissin Parties agree to cause each of VNBJ and VNBZ to comply with Sections 4.3.2 and 4.3.3 of the JV Agreement with respect to the indemnification or reimbursement, as applicable, of all Directors and Officers",
+        "page": 3
+      },
+      {
+        "clause": "anti_assignment",
+        "level": "LOW",
+        "reason": "No anti-assignment clause. Contract rights may be freely transferred.",
+        "recommendation": "Consider adding assignment restriction if partnership is key.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      }
+    ],
+    "summary": "2 high-risk issues, 2 medium-risk issues, 2 low-risk notes",
+    "high_count": 2,
+    "medium_count": 2,
+    "low_count": 2
+  },
+  "DovaPharmaceuticalsInc_20181108_10-Q_EX-10_2_11414857_EX-10_2_Promotion_Agreemen": {
+    "overall_risk": "MEDIUM",
+    "risk_score": 30,
+    "flags": [
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "indemnification",
+        "level": "MEDIUM",
+        "reason": "Indemnification clause present \u2014 review scope carefully.",
+        "recommendation": "Ensure indemnification is mutual and capped.",
+        "extracted_text": "11.1 Indemnification by Dova.",
+        "page": 1
+      }
+    ],
+    "summary": "2 medium-risk issues",
+    "high_count": 0,
+    "medium_count": 2,
+    "low_count": 0
+  },
+  "PACIRA_PHARMACEUTICALS__INC__-_A_R_STRATEGIC_LICENSING__DISTRIBUTION_AND_MARKETI": {
+    "overall_risk": "HIGH",
+    "risk_score": 70,
+    "flags": [
+      {
+        "clause": "uncapped_liability",
+        "level": "HIGH",
+        "reason": "Explicit uncapped liability clause found.",
+        "recommendation": "Negotiate mutual cap on liability before signing.",
+        "extracted_text": "except for death or personal injury caused by the negligence of PPI or its employees while acting in the course of their employment",
+        "page": 28
+      },
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "indemnification",
+        "level": "MEDIUM",
+        "reason": "Indemnification clause present \u2014 review scope carefully.",
+        "recommendation": "Ensure indemnification is mutual and capped.",
+        "extracted_text": "The indemnifying Party shall have the option to assume the defense thereof by election in writing within thirty (30) days of receipt of such notice",
+        "page": 27
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "arbitration",
+        "level": "LOW",
+        "reason": "Arbitration clause found. Court litigation may be waived.",
+        "recommendation": "Review arbitration rules, venue, and cost allocation.",
+        "extracted_text": "The dispute shall be determined by a single independent impartial expert who shall be agreed between the Parties or, in the absence of agreement between the Parties within 30 days of the service of a Referral Notice, be appointed by the American Arbitration Association",
+        "page": 43
+      }
+    ],
+    "summary": "1 high-risk issue, 2 medium-risk issues, 2 low-risk notes",
+    "high_count": 1,
+    "medium_count": 2,
+    "low_count": 2
+  },
+  "MetLife__Inc__-_Remarketing_Agreement": {
+    "overall_risk": "MEDIUM",
+    "risk_score": 50,
+    "flags": [
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "indemnification",
+        "level": "MEDIUM",
+        "reason": "Indemnification clause present \u2014 review scope carefully.",
+        "recommendation": "Ensure indemnification is mutual and capped.",
+        "extracted_text": "then each indemnifying party shall contribute to the amount paid or payable by such indemnified party as a result of such losses, claims, damages or liabilities (or actions in respect thereof) in such proportion as is appropriate to reflect the relative benefits received by the Company on the one hand and the Remarketing Agents on the other from the Remarketing of the Remarketed Securities to which any such loss, claim, damage or liability (or action in respect thereof) relates.",
+        "page": 27
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "class_action_waiver",
+        "level": "MEDIUM",
+        "reason": "Class action waiver found. May limit remedies.",
+        "recommendation": "Review enforceability in applicable jurisdiction.",
+        "extracted_text": "The Company and each of the Remarketing Agents hereby irrevocably waives, to the fullest extent permitted by applicable law, any and all right to trial by jury in any legal proceeding arising out of or relating to this Remarketing Agreement or the transactions contemplated hereby.",
+        "page": 33
+      }
+    ],
+    "summary": "3 medium-risk issues, 1 low-risk note",
+    "high_count": 0,
+    "medium_count": 3,
+    "low_count": 1
+  },
+  "FTENETWORKS_INC_02_18_2016-EX-99_4-STRATEGIC_ALLIANCE_AGREEMENT": {
+    "overall_risk": "MEDIUM",
+    "risk_score": 45,
+    "flags": [
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "indemnification",
+        "level": "MEDIUM",
+        "reason": "Indemnification clause present \u2014 review scope carefully.",
+        "recommendation": "Ensure indemnification is mutual and capped.",
+        "extracted_text": "Subcontractor shall indemnify, defend and hold harmless EDGE and Customer and both of their subsidiaries, directors, shareholders, partners, principals (disclosed or undisclosed), employees, agents and representatives (hereinafter the 'Indemnitees') from and against any and all claims, demands, damages, actions, causes of action, suits, losses, judgments, obligations, and any liabilities, costs and expenses",
+        "page": 6
+      },
+      {
+        "clause": "anti_assignment",
+        "level": "LOW",
+        "reason": "No anti-assignment clause. Contract rights may be freely transferred.",
+        "recommendation": "Consider adding assignment restriction if partnership is key.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "arbitration",
+        "level": "LOW",
+        "reason": "Arbitration clause found. Court litigation may be waived.",
+        "recommendation": "Review arbitration rules, venue, and cost allocation.",
+        "extracted_text": "All claims, disputes and other matters in question arising out of or relating to this subcontract with a breach thereof, except for claims which have been waived by the making or acceptance of final payment, shall be decided by mediation or non-binding arbitration",
+        "page": 10
+      }
+    ],
+    "summary": "2 medium-risk issues, 3 low-risk notes",
+    "high_count": 0,
+    "medium_count": 2,
+    "low_count": 3
+  },
+  "DOMINIADVISORTRUST_02_18_2005-EX-99__H__2_-SPONSORSHIP_AGREEMENT": {
+    "overall_risk": "LOW",
+    "risk_score": 20,
+    "flags": [
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "anti_assignment",
+        "level": "LOW",
+        "reason": "No anti-assignment clause. Contract rights may be freely transferred.",
+        "recommendation": "Consider adding assignment restriction if partnership is key.",
+        "extracted_text": null,
+        "page": null
+      }
+    ],
+    "summary": "1 medium-risk issue, 1 low-risk note",
+    "high_count": 0,
+    "medium_count": 1,
+    "low_count": 1
+  },
+  "PfHospitalityGroupInc_20150923_10-12G_EX-10_1_9266710_EX-10_1_Franchise_Agreemen": {
+    "overall_risk": "HIGH",
+    "risk_score": 100,
+    "flags": [
+      {
+        "clause": "cap_on_liability",
+        "level": "HIGH",
+        "reason": "No cap on liability found. Party may be exposed to unlimited damages.",
+        "recommendation": "Negotiate a liability cap, typically 12 months of fees paid.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "uncapped_liability",
+        "level": "HIGH",
+        "reason": "Explicit uncapped liability clause found.",
+        "recommendation": "Negotiate mutual cap on liability before signing.",
+        "extracted_text": "You agree to pay all damages, costs, and expenses, including, but not limited to, reasonable attorneys' fees, that we incur",
+        "page": 45
+      },
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "indemnification",
+        "level": "MEDIUM",
+        "reason": "Indemnification clause present \u2014 review scope carefully.",
+        "recommendation": "Ensure indemnification is mutual and capped.",
+        "extracted_text": "You agree to pay all costs and expenses that we reasonably incur in enforcing this Section 17, including reasonable attorneys' fees.",
+        "page": 46
+      },
+      {
+        "clause": "non_compete",
+        "level": "MEDIUM",
+        "reason": "Non-compete clause found. May restrict future business activities.",
+        "recommendation": "Review scope, duration, and geographic restrictions.",
+        "extracted_text": "the term 'Post-Term Period' shall mean a continuous uninterrupted period of two (2) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement;",
+        "page": 2
+      },
+      {
+        "clause": "anti_assignment",
+        "level": "LOW",
+        "reason": "No anti-assignment clause. Contract rights may be freely transferred.",
+        "recommendation": "Consider adding assignment restriction if partnership is key.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "arbitration",
+        "level": "LOW",
+        "reason": "Arbitration clause found. Court litigation may be waived.",
+        "recommendation": "Review arbitration rules, venue, and cost allocation.",
+        "extracted_text": "a final order of a duly authorized arbitrator, panel of arbitrators, or a court of competent jurisdiction",
+        "page": 2
+      }
+    ],
+    "summary": "2 high-risk issues, 3 medium-risk issues, 3 low-risk notes",
+    "high_count": 2,
+    "medium_count": 3,
+    "low_count": 3
+  },
+  "CerenceInc_20191002_8-K_EX-10_4_11827494_EX-10_4_Intellectual_Property_Agreement": {
+    "overall_risk": "HIGH",
+    "risk_score": 50,
+    "flags": [
+      {
+        "clause": "termination_for_convenience",
+        "level": "HIGH",
+        "reason": "No termination for convenience clause. Party may be locked into contract.",
+        "recommendation": "Add mutual termination for convenience with 30-day notice.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      }
+    ],
+    "summary": "1 high-risk issue, 1 medium-risk issue, 1 low-risk note",
+    "high_count": 1,
+    "medium_count": 1,
+    "low_count": 1
+  },
+  "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99_D_IV__11720968_EX-99_D_IV__": {
+    "overall_risk": "HIGH",
+    "risk_score": 80,
+    "flags": [
+      {
+        "clause": "cap_on_liability",
+        "level": "HIGH",
+        "reason": "No cap on liability found. Party may be exposed to unlimited damages.",
+        "recommendation": "Negotiate a liability cap, typically 12 months of fees paid.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "termination_for_convenience",
+        "level": "HIGH",
+        "reason": "No termination for convenience clause. Party may be locked into contract.",
+        "recommendation": "Add mutual termination for convenience with 30-day notice.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      }
+    ],
+    "summary": "2 high-risk issues, 1 medium-risk issue, 1 low-risk note",
+    "high_count": 2,
+    "medium_count": 1,
+    "low_count": 1
+  },
+  "ReynoldsConsumerProductsInc_20191115_S-1_EX-10_18_11896469_EX-10_18_Supply_Agree": {
+    "overall_risk": "HIGH",
+    "risk_score": 70,
+    "flags": [
+      {
+        "clause": "cap_on_liability",
+        "level": "HIGH",
+        "reason": "No cap on liability found. Party may be exposed to unlimited damages.",
+        "recommendation": "Negotiate a liability cap, typically 12 months of fees paid.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "termination_for_convenience",
+        "level": "HIGH",
+        "reason": "No termination for convenience clause. Party may be locked into contract.",
+        "recommendation": "Add mutual termination for convenience with 30-day notice.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "anti_assignment",
+        "level": "LOW",
+        "reason": "No anti-assignment clause. Contract rights may be freely transferred.",
+        "recommendation": "Consider adding assignment restriction if partnership is key.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      }
+    ],
+    "summary": "2 high-risk issues, 2 low-risk notes",
+    "high_count": 2,
+    "medium_count": 0,
+    "low_count": 2
+  },
+  "IntegrityFunds_20200121_485BPOS_EX-99_E_UNDR_CONTR_11948727_EX-99_E_UNDR_CONTR_S": {
+    "overall_risk": "HIGH",
+    "risk_score": 85,
+    "flags": [
+      {
+        "clause": "cap_on_liability",
+        "level": "HIGH",
+        "reason": "No cap on liability found. Party may be exposed to unlimited damages.",
+        "recommendation": "Negotiate a liability cap, typically 12 months of fees paid.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "termination_for_convenience",
+        "level": "HIGH",
+        "reason": "No termination for convenience clause. Party may be locked into contract.",
+        "recommendation": "Add mutual termination for convenience with 30-day notice.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "anti_assignment",
+        "level": "LOW",
+        "reason": "No anti-assignment clause. Contract rights may be freely transferred.",
+        "recommendation": "Consider adding assignment restriction if partnership is key.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      }
+    ],
+    "summary": "2 high-risk issues, 1 medium-risk issue, 2 low-risk notes",
+    "high_count": 2,
+    "medium_count": 1,
+    "low_count": 2
+  },
+  "PREMIERBIOMEDICALINC_05_14_2020-EX-10_2-INTELLECTUAL_PROPERTY_AGREEMENT": {
+    "overall_risk": "HIGH",
+    "risk_score": 85,
+    "flags": [
+      {
+        "clause": "cap_on_liability",
+        "level": "HIGH",
+        "reason": "No cap on liability found. Party may be exposed to unlimited damages.",
+        "recommendation": "Negotiate a liability cap, typically 12 months of fees paid.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "termination_for_convenience",
+        "level": "HIGH",
+        "reason": "No termination for convenience clause. Party may be locked into contract.",
+        "recommendation": "Add mutual termination for convenience with 30-day notice.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "anti_assignment",
+        "level": "LOW",
+        "reason": "No anti-assignment clause. Contract rights may be freely transferred.",
+        "recommendation": "Consider adding assignment restriction if partnership is key.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      }
+    ],
+    "summary": "2 high-risk issues, 1 medium-risk issue, 2 low-risk notes",
+    "high_count": 2,
+    "medium_count": 1,
+    "low_count": 2
+  },
+  "SIBANNAC_INC_12_04_2017-EX-2_1-Strategic_Alliance_Agreement": {
+    "overall_risk": "HIGH",
+    "risk_score": 85,
+    "flags": [
+      {
+        "clause": "cap_on_liability",
+        "level": "HIGH",
+        "reason": "No cap on liability found. Party may be exposed to unlimited damages.",
+        "recommendation": "Negotiate a liability cap, typically 12 months of fees paid.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "termination_for_convenience",
+        "level": "HIGH",
+        "reason": "No termination for convenience clause. Party may be locked into contract.",
+        "recommendation": "Add mutual termination for convenience with 30-day notice.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "governing_law",
+        "level": "MEDIUM",
+        "reason": "No governing law specified. Jurisdiction of disputes is unclear.",
+        "recommendation": "Specify governing law and venue for dispute resolution.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "anti_assignment",
+        "level": "LOW",
+        "reason": "No anti-assignment clause. Contract rights may be freely transferred.",
+        "recommendation": "Consider adding assignment restriction if partnership is key.",
+        "extracted_text": null,
+        "page": null
+      },
+      {
+        "clause": "audit_rights",
+        "level": "LOW",
+        "reason": "No audit rights clause. Cannot verify compliance.",
+        "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
+        "extracted_text": null,
+        "page": null
+      }
+    ],
+    "summary": "2 high-risk issues, 1 medium-risk issue, 2 low-risk notes",
+    "high_count": 2,
+    "medium_count": 1,
+    "low_count": 2
+  }
+}

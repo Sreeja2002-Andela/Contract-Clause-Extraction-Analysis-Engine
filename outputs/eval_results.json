@@ -1,0 +1,307 @@
+{
+  "governing_law": {
+    "precision": 0.75,
+    "recall": 0.176,
+    "f1": 0.286,
+    "tp": 3,
+    "fp": 1,
+    "fn": 14,
+    "support": 17
+  },
+  "termination_for_convenience": {
+    "precision": 0.462,
+    "recall": 0.75,
+    "f1": 0.571,
+    "tp": 6,
+    "fp": 7,
+    "fn": 2,
+    "support": 8
+  },
+  "cap_on_liability": {
+    "precision": 0.636,
+    "recall": 0.875,
+    "f1": 0.737,
+    "tp": 7,
+    "fp": 4,
+    "fn": 1,
+    "support": 8
+  },
+  "non_compete": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1": 0.571,
+    "tp": 2,
+    "fp": 0,
+    "fn": 3,
+    "support": 5
+  },
+  "ip_ownership_assignment": {
+    "precision": 0.333,
+    "recall": 0.25,
+    "f1": 0.286,
+    "tp": 1,
+    "fp": 2,
+    "fn": 3,
+    "support": 4
+  },
+  "audit_rights": {
+    "precision": 0.5,
+    "recall": 0.2,
+    "f1": 0.286,
+    "tp": 1,
+    "fp": 1,
+    "fn": 4,
+    "support": 5
+  },
+  "anti_assignment": {
+    "precision": 0.875,
+    "recall": 0.583,
+    "f1": 0.7,
+    "tp": 7,
+    "fp": 1,
+    "fn": 5,
+    "support": 12
+  },
+  "change_of_control": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1": 0.667,
+    "tp": 3,
+    "fp": 1,
+    "fn": 2,
+    "support": 5
+  },
+  "arbitration": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 6,
+    "fn": 0,
+    "support": 0
+  },
+  "indemnification": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 11,
+    "fn": 0,
+    "support": 0
+  },
+  "uncapped_liability": {
+    "precision": 0.4,
+    "recall": 0.5,
+    "f1": 0.444,
+    "tp": 2,
+    "fp": 3,
+    "fn": 2,
+    "support": 4
+  },
+  "liquidated_damages": {
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1": 0.286,
+    "tp": 1,
+    "fp": 4,
+    "fn": 1,
+    "support": 2
+  },
+  "insurance": {
+    "precision": 0.667,
+    "recall": 0.857,
+    "f1": 0.75,
+    "tp": 6,
+    "fp": 3,
+    "fn": 1,
+    "support": 7
+  },
+  "non_disparagement": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "support": 0
+  },
+  "no_solicitation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "support": 0
+  },
+  "exclusivity": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 5,
+    "support": 5
+  },
+  "revenue_profit_sharing": {
+    "precision": 0.5,
+    "recall": 0.167,
+    "f1": 0.25,
+    "tp": 1,
+    "fp": 1,
+    "fn": 5,
+    "support": 6
+  },
+  "minimum_commitment": {
+    "precision": 0.667,
+    "recall": 0.5,
+    "f1": 0.571,
+    "tp": 2,
+    "fp": 1,
+    "fn": 2,
+    "support": 4
+  },
+  "license_grant": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.857,
+    "tp": 6,
+    "fp": 0,
+    "fn": 2,
+    "support": 8
+  },
+  "warranty_duration": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.667,
+    "tp": 2,
+    "fp": 0,
+    "fn": 2,
+    "support": 4
+  },
+  "most_favored_nation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "support": 0
+  },
+  "price_restrictions": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "support": 1
+  },
+  "volume_restriction": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 2,
+    "support": 2
+  },
+  "joint_ip_ownership": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 1,
+    "support": 1
+  },
+  "source_code_escrow": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 0,
+    "support": 0
+  },
+  "post_termination_services": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 4,
+    "support": 4
+  },
+  "unlimited_all_you_can_eat_license": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "support": 0
+  },
+  "irrevocable_or_perpetual_license": {
+    "precision": 0.667,
+    "recall": 0.667,
+    "f1": 0.667,
+    "tp": 2,
+    "fp": 1,
+    "fn": 1,
+    "support": 3
+  },
+  "affiliate_license_licensor": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 0,
+    "support": 0
+  },
+  "affiliate_license_licensee": {
+    "precision": 0.667,
+    "recall": 0.667,
+    "f1": 0.667,
+    "tp": 2,
+    "fp": 1,
+    "fn": 1,
+    "support": 3
+  },
+  "class_action_waiver": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 0,
+    "support": 0
+  },
+  "third_party_beneficiary": {
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1": 0.333,
+    "tp": 1,
+    "fp": 4,
+    "fn": 0,
+    "support": 1
+  },
+  "covenant_not_to_sue": {
+    "precision": 0.333,
+    "recall": 0.333,
+    "f1": 0.333,
+    "tp": 1,
+    "fp": 2,
+    "fn": 2,
+    "support": 3
+  },
+  "_overall": {
+    "precision": 0.479,
+    "recall": 0.459,
+    "f1": 0.469,
+    "tp": 56,
+    "fp": 61,
+    "fn": 66
+  }
+}
