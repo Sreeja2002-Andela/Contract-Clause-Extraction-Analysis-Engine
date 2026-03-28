@@ -179,24 +179,79 @@ CUAD provides 13,000+ expert annotations across 41 categories. We compute precis
 
 ---
 
-## Known Limitations and Failure Modes
+## ⚠️ Known Limitations & Failure Modes
 
-**False negatives on high-variation clauses**: Revenue sharing and joint IP ownership clauses vary too widely in language across SEC filings. The extractor misses roughly 30–40% of these. F1 drops below 0.5 for these categories. The fix would be more retrieval candidates before the LLM pass, or category-specific prompts.
+### 1. Clause Extraction Variability
+High linguistic variation leads to false negatives, particularly for clauses like revenue sharing and joint IP ownership which vary significantly across SEC filings.
+* **Miss Rate:** ~30–40%
+* **F1 Score:** < 0.5 for these categories
+* **Root Cause:** Insufficient semantic recall from retrieval combined with generalized prompts.
+* **Impact:** Important clauses may be missed, negatively affecting downstream risk scoring.
 
-**Long contracts exceed context window**: Contracts over ~60,000 characters fall back to retrieval-based extraction — top chunks per clause group are fetched and sent instead of the full text. This loses cross-clause coherence and increases miss rate.
+### 2. Context Window Constraints
+Contracts exceeding ~60,000 characters cannot be processed in a single pass. The system falls back to retrieval-based chunking, where only the top chunks per clause group are passed to the LLM.
+* **Limitation:** Loss of cross-clause reasoning and reduced contextual coherence.
+* **Impact:** Increased probability of missed or incomplete clause extraction.
 
-**Table-formatted clauses not reliably extracted**: Schedules and exhibits formatted as tables (payment milestones, territory restrictions) are linearized poorly during text extraction and chunked incorrectly. These clauses are frequently missed.
+### 3. Table & Structured Data Extraction Issues
+Clauses embedded in tables (e.g., schedules, exhibits, payment milestones, territory restrictions) are not reliably extracted. During preprocessing, tables are flattened into plain text, and chunking breaks the logical structure.
+* **Impact:** These clauses are frequently skipped or misinterpreted by the model.
 
-**ChromaDB cold start on first embed**: The first embedding run downloads the sentence-transformers model (~90MB). Subsequent runs use the cached model. Ensure internet access before demo or pre-cache the model with:
-```bash
-python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
-```
+### 4. Partial / Failed Contract Processing
+In initial testing, extraction succeeded for 16 contracts (ranging from 5 to 458 chunks per document), but complete or partial extraction failures were observed in 4 contracts. 
+* *Example:* One contract produced 85 chunks but only 7 were successfully extracted.
+* **Impact:** Missing clause data leading to incorrect risk classification (often defaulting to HIGH risk).
 
-**All 20 contracts flagged HIGH risk**: This is expected, not a bug. Most commercial contracts are missing at least one of the three critical clauses we check (cap on liability, termination for convenience, governing law). The risk score reflects the actual state of the contracts.
+### 5. Risk Scoring Bias (Expected Behavior)
+Currently, all 20 tested contracts were flagged as HIGH risk. **This is intentional and not a bug.**
+* **Reason:** Most commercial contracts lack at least one critical clause (e.g., Cap on liability, Termination for convenience, Governing law).
+* **Impact:** Risk scores accurately reflect actual contract quality based on stringent criteria, rather than a model error.
 
+### 6. Model & Infrastructure Limitations
+* **API Constraints:** Rate limits from the Groq API (model: `llama-3.3-70b-versatile`) can slow down processing or cause required retries.
+* **Cold Start Latency:** The first ChromaDB embedding run downloads the sentence-transformers model (~90MB). Subsequent runs are cached.
+  * *Mitigation:* Pre-download the model using:
+    ```bash
+    python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
+    ```
+    
 ---
 
+## 🛠️ Mitigation Strategies & Future Improvements
+
+### 1. Improve Clause Recall
+* Increase the number of retrieved chunks per clause category.
+* Transition from generic prompts to category-specific prompting.
+* Introduce few-shot examples for high-variance clauses.
+
+### 2. Handle Long Documents Better
+* Implement sliding window chunking.
+* Utilize overlapping chunk retrieval to maintain boundaries.
+* Use hierarchical retrieval (section → clause) to preserve broader document context.
+
+### 3. Structured Data Handling
+* Integrate table-aware parsers to avoid plain text flattening.
+* Preserve table structure metadata before the chunking phase.
+* Apply specialized parsing logic specifically for schedules and exhibits.
+
+### 4. Improve Dataset Coverage
+* Scale processing to 50–100 contracts directly from `CUADv1.json`.
+* Filter contracts based on chunk size (e.g., < 80–100 chunks) to establish a high-quality baseline.
+* **Benefit:** Higher success rates during LLM extraction and vastly improved evaluation coverage.
+
+### 5. Reduce Extraction Failures
+* Add pre-flight validation checks to ensure minimum clause coverage per contract.
+* Implement dynamic retry logic for extraction using:
+  * Different chunk subsets.
+  * Adjusted retrieval thresholds.
+
+### 6. System Reliability Enhancements
+* Cache embeddings systematically before runtime to eliminate cold start delays.
+* Implement robust backoff and retry logic for API rate limits.
+* Batch process contracts to stabilize overall system throughput.
 ## Dataset
+
+---
 
 **CUAD — Contract Understanding Atticus Dataset v1**
 - File: `CUADv1.json` (SQuAD format)
