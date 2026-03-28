@@ -215,7 +215,7 @@ python -c "from sentence_transformers import SentenceTransformer; SentenceTransf
 | Embeddings | sentence-transformers | 3.0.1 | Fast, local, no API key needed |
 | Keyword search | rank-bm25             | 0.2.2 | Exact legal term matching |
 | Retrieval fusion | RRF (custom)          | — | Scale-invariant, outperforms score averaging |
-| LLM | Groq                  | latest | Strong structured output, legal reasoning |
+| LLM | Groq                  | 0.37.1 | Strong structured output, legal reasoning |
 | Backend | FastAPI               | 0.115.0 | Async, auto-docs, background tasks |
 | Frontend | Streamlit             | 1.38.0 | Fast to build, local demo friendly |
 | PDF fallback | pdfplumber            | 0.11.4 | Table-aware text extraction |
