@@ -22,7 +22,7 @@ def chunk_contract(contract: dict, max_chunk_chars: int = 1200) -> list[dict]:
     2. Merge very short paragraphs (< 80 chars) into the next one
        — these are usually section headings, not standalone clauses
     3. Split very long paragraphs (> max_chunk_chars) at sentence boundaries
-    4. Attach metadata: contract_id, page estimate, para_idx, char_start
+    4. Attach metadata: contract_id, page estimate, para_idx, char_start, char_end, file_name
 
     Returns list of chunk dicts ready for embedding.
     """

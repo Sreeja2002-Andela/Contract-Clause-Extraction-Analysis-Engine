@@ -146,7 +146,7 @@
     },
     "affiliate_license_licensor": {
       "present": true,
-      "text": "any patent, copyright, trademark, trade name or other proprietary right owned by or licensed to the Company or any of its affiliates",
+      "text": "any license or other right of use with respect to any present or future patent, copyright, trademark, trade name or other proprietary right owned by or licensed to the Company or any of its affiliates",
       "page": 10,
       "confidence": "high"
     },
@@ -218,7 +218,7 @@
     },
     "covenant_not_to_sue": {
       "present": true,
-      "text": "the Distributor (on behalf of itself and each of its affiliates) agrees not to commence, or provide any information to or otherwise assist any person or entity in connection with, any suit, action or proceeding contesting the ownership, validity or enforceability of any patent, copyright, trademark, trade name or other propriety right owned by or licensed to the Company",
+      "text": "Distributor agrees not to commence, or provide any information to or otherwise assist any person or entity in connection with, any suit, action or proceeding contesting the ownership, validity or enforceability of any patent, copyright, trademark, trade name or other propriety right owned by or licensed to the Company",
       "page": 11,
       "confidence": "high"
     },
@@ -242,7 +242,7 @@
     },
     "indemnification": {
       "present": true,
-      "text": "Company and Distributor agree to indemnify, defend and hold each other harmless from any and all suits, claims, obligations, liabilities, damages, losses and the like (including attorneys' fees and costs) relating to or arising out of: (A) any breach of any material representations, warranties, covenants, obligations, agreements or duties in connection with this Agreement",
+      "text": "Company and Distributor agree to indemnify, defend and hold each other harmless from any and all suits, claims, obligations, liabilities, damages, losses and the like",
       "page": 10,
       "confidence": "high"
     }
@@ -472,9 +472,9 @@
     },
     "third_party_beneficiary": {
       "present": true,
-      "text": "Distributor shall (and shall ensure that any Third Party Distributors shall) immediately stop reproducing the Products and offering or distributing Bundles;",
+      "text": "Distributor shall (and shall ensure that any Third Party Distributors shall) immediately stop reproducing the Products",
       "page": 9,
-      "confidence": "high"
+      "confidence": "medium"
     },
     "class_action_waiver": {
       "present": false,
@@ -490,7 +490,7 @@
     },
     "indemnification": {
       "present": true,
-      "text": "The indemnification obligations set out in Clause 10.4(b) shall exist only if Google: (a) promptly notifies Distributor of such claim,",
+      "text": "The indemnification obligations set out in Clause 10.4(b) shall exist only if Google: (a) promptly notifies Distributor of such claim",
       "page": 13,
       "confidence": "high"
     }
@@ -732,7 +732,7 @@
     },
     "arbitration": {
       "present": true,
-      "text": "All disputes in connection with this Contract or the execution thereof shall be settled friendly through negotiations. In case no settlement can be reached, the case may then be submitted for arbitration",
+      "text": "All disputes in connection with this Contract or the execution thereof shall be settled friendly through negotiations. In case no settlement can be reached, the case may then be submitted for arbitration to the Foreign Economic and Trade Arbitration Committee of the China Beijing Council for the Promotion of International Trade",
       "page": 4,
       "confidence": "high"
     },
@@ -1254,7 +1254,7 @@
     },
     "agreement_date": {
       "present": true,
-      "text": "the date first set forth above",
+      "text": "as of the date first set forth above",
       "page": 8,
       "confidence": "medium"
     },
@@ -1652,7 +1652,7 @@
     },
     "irrevocable_or_perpetual_license": {
       "present": true,
-      "text": "perpetual, irrevocable, worldwide license",
+      "text": "a non-exclusive, royalty-free, perpetual, irrevocable, worldwide license",
       "page": 2,
       "confidence": "high"
     },
@@ -1924,7 +1924,7 @@
     },
     "uncapped_liability": {
       "present": true,
-      "text": "the termination of the JV Agreement with respect to VNBJ, VNBZ or the Veoneer Parties shall not release any Veoneer Party or any Nissin Party from liability for the breach of any of its representations, warranties, covenants or agreements",
+      "text": "shall not release any Veoneer Party or any Nissin Party from liability for the breach of any of its representations, warranties, covenants or agreements",
       "page": 2,
       "confidence": "high"
     },
@@ -1997,14 +1997,14 @@
       "confidence": "low"
     },
     "agreement_date": {
-      "present": true,
-      "text": "as of the Effective Date",
-      "page": 52,
-      "confidence": "high"
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
     },
     "effective_date": {
       "present": true,
-      "text": "shall have the meaning set forth in the preamble to this Agreement",
+      "text": "the Effective Date",
       "page": 5,
       "confidence": "high"
     },
@@ -2021,10 +2021,10 @@
       "confidence": "low"
     },
     "notice_period_to_terminate_renewal": {
-      "present": true,
-      "text": "upon [***] written notice to the other Party",
-      "page": 47,
-      "confidence": "medium"
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
     },
     "governing_law": {
       "present": false,
@@ -2106,7 +2106,7 @@
     },
     "ip_ownership_assignment": {
       "present": true,
-      "text": "Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest in and to such Product Materials (and content) and Product Labeling (and content)",
+      "text": "Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest in and to such Product Materials (and content) and Product Labeling (and content) to Dova",
       "page": 23,
       "confidence": "high"
     },
@@ -2130,13 +2130,13 @@
     },
     "affiliate_license_licensor": {
       "present": true,
-      "text": "Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest",
+      "text": "Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest in and to such Product Materials (and content) and Product Labeling (and content) to Dova",
       "page": 23,
       "confidence": "medium"
     },
     "affiliate_license_licensee": {
       "present": true,
-      "text": "Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest",
+      "text": "Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest in and to such Product Materials (and content) and Product Labeling (and content) to Dova",
       "page": 23,
       "confidence": "medium"
     },
@@ -2196,7 +2196,7 @@
     },
     "insurance": {
       "present": true,
-      "text": "Each Party acknowledges and agrees that during the Term, it shall maintain, through purchase or self- insurance, adequate insurance, including products liability coverage and comprehensive general liability insurance",
+      "text": "Each Party acknowledges and agrees that during the Term, it shall maintain, through purchase or self-insurance, adequate insurance, including products liability coverage and comprehensive general liability insurance",
       "page": 46,
       "confidence": "high"
     },
@@ -2247,7 +2247,7 @@
     "agreement_date": {
       "present": true,
       "text": "on the Agreement Date",
-      "page": 5,
+      "page": 31,
       "confidence": "high"
     },
     "effective_date": {
@@ -2342,7 +2342,7 @@
     },
     "minimum_commitment": {
       "present": true,
-      "text": "plus (b) an additional [**]% of any post Effective Date incremental price increase implemented by EKR",
+      "text": "the Minimum Royalty",
       "page": 20,
       "confidence": "medium"
     },
@@ -2450,7 +2450,7 @@
     },
     "covenant_not_to_sue": {
       "present": true,
-      "text": "no Party shall have any remedy in respect of misrepresentation or untrue statement made by the other Party or for any breach of warranty which is not contained in this Agreement",
+      "text": "(b) no Party shall have any remedy in respect of misrepresentation or untrue statement made by the other Party or for any breach of warranty which is not contained in this Agreement;",
       "page": 38,
       "confidence": "high"
     },
@@ -2474,17 +2474,17 @@
     },
     "indemnification": {
       "present": true,
-      "text": "The indemnifying Party shall have the option to assume the defense thereof by election in writing within thirty (30) days of receipt of such notice",
+      "text": "The indemnifying Party shall have the option to assume the defense thereof by election in writing within thirty (30) days of receipt of such notice.",
       "page": 27,
       "confidence": "high"
     }
   },
   "MetLife__Inc__-_Remarketing_Agreement": {
     "document_name": {
-      "present": false,
-      "text": null,
-      "page": null,
-      "confidence": "low"
+      "present": true,
+      "text": "Remarketing Agreement",
+      "page": 30,
+      "confidence": "high"
     },
     "parties": {
       "present": true,
@@ -2500,7 +2500,7 @@
     },
     "effective_date": {
       "present": true,
-      "text": "on the effective date of the resignation or removal of such Remarketing Agent pursuant to Section 7",
+      "text": "on the effective date of the resignation or removal of such Remarketing Agent",
       "page": 30,
       "confidence": "medium"
     },
@@ -2709,10 +2709,10 @@
       "confidence": "low"
     },
     "class_action_waiver": {
-      "present": true,
-      "text": "The Company and each of the Remarketing Agents hereby irrevocably waives, to the fullest extent permitted by applicable law, any and all right to trial by jury in any legal proceeding arising out of or relating to this Remarketing Agreement or the transactions contemplated hereby.",
-      "page": 33,
-      "confidence": "high"
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
     },
     "arbitration": {
       "present": false,
@@ -2722,7 +2722,7 @@
     },
     "indemnification": {
       "present": true,
-      "text": "then each indemnifying party shall contribute to the amount paid or payable by such indemnified party as a result of such losses, claims, damages or liabilities (or actions in respect thereof) in such proportion as is appropriate to reflect the relative benefits received by the Company on the one hand and the Remarketing Agents on the other from the Remarketing of the Remarketed Securities to which any such loss, claim, damage or liability (or action in respect thereof) relates.",
+      "text": "then each indemnifying party shall contribute to the amount paid or payable by such indemnified party as a result of such losses, claims, damages or liabilities",
       "page": 27,
       "confidence": "high"
     }
@@ -2760,7 +2760,7 @@
     },
     "renewal_term": {
       "present": true,
-      "text": "After the Initial Term, this Agreement shall continue on a month to month basis",
+      "text": "this Agreement shall continue on a month to month basis",
       "page": 1,
       "confidence": "high"
     },
@@ -2934,7 +2934,7 @@
     },
     "warranty_duration": {
       "present": true,
-      "text": "These warranties extend to the future performance of the materials and shall continue for the longer of (a) the warranty period applicable to EDGE' sales to Customer of the material or of products which incorporate the material, (b) one year after the material is accepted by EDGE or (c) such greater period as may be specified elsewhere in this Agreement.",
+      "text": "These warranties extend to the future performance of the materials and shall continue for the longer of (a) the warranty period applicable to EDGE' sales to Customer of the material or of products which incorporate the material, (b) one year after the material is accepted by EDGE",
       "page": 7,
       "confidence": "high"
     },
@@ -2970,7 +2970,7 @@
     },
     "indemnification": {
       "present": true,
-      "text": "Subcontractor shall indemnify, defend and hold harmless EDGE and Customer and both of their subsidiaries, directors, shareholders, partners, principals (disclosed or undisclosed), employees, agents and representatives (hereinafter the 'Indemnitees') from and against any and all claims, demands, damages, actions, causes of action, suits, losses, judgments, obligations, and any liabilities, costs and expenses",
+      "text": "Subcontractor shall indemnify, defend and hold harmless EDGE and Customer and both of their subsidiaries, directors, shareholders, partners, principals (disclosed or undisclosed), employees, agents and representatives",
       "page": 6,
       "confidence": "high"
     }
@@ -3280,9 +3280,9 @@
     },
     "non_compete": {
       "present": true,
-      "text": "the term 'Post-Term Period' shall mean a continuous uninterrupted period of two (2) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement;",
-      "page": 2,
-      "confidence": "high"
+      "text": "During that 30-day period, you agree not to dispose of, transfer, or otherwise hinder our ability to exercise our rights with respect to your assets.",
+      "page": 44,
+      "confidence": "medium"
     },
     "exclusivity": {
       "present": false,
@@ -3304,21 +3304,21 @@
     },
     "termination_for_convenience": {
       "present": true,
-      "text": "we may exercise this option by delivering a notice of intent to purchase to you within 30 days after the expiration or termination of this Agreement.",
-      "page": 44,
-      "confidence": "medium"
+      "text": "expiration or termination of the Franchise Agreement (regardless of the cause for termination)",
+      "page": 2,
+      "confidence": "high"
     },
     "change_of_control": {
-      "present": false,
-      "text": null,
-      "page": null,
-      "confidence": "low"
+      "present": true,
+      "text": "a transfer permitted under Section 14 of the Franchise Agreement",
+      "page": 2,
+      "confidence": "high"
     },
     "anti_assignment": {
-      "present": false,
-      "text": null,
-      "page": null,
-      "confidence": "low"
+      "present": true,
+      "text": "If we do not exercise our rights to purchase your Delivery Vehicle(s), you must immediately make such modifications or alterations to the Delivery Vehicle(s) that may be needed to remove any Proprietary Marks",
+      "page": 44,
+      "confidence": "medium"
     },
     "revenue_profit_sharing": {
       "present": false,
@@ -3411,10 +3411,10 @@
       "confidence": "low"
     },
     "uncapped_liability": {
-      "present": true,
-      "text": "You agree to pay all damages, costs, and expenses, including, but not limited to, reasonable attorneys' fees, that we incur",
-      "page": 45,
-      "confidence": "high"
+      "present": false,
+      "text": null,
+      "page": null,
+      "confidence": "low"
     },
     "cap_on_liability": {
       "present": false,
@@ -3424,7 +3424,7 @@
     },
     "liquidated_damages": {
       "present": true,
-      "text": "The payments called for in Section 16.4 [Liquidated Damages] above constitute liquidated damages for causing the premature termination of this Agreement",
+      "text": "The payments called for in Section 16.4 [Liquidated Damages] above constitute liquidated damages for causing the premature termination of this Agreement and not a penalty.",
       "page": 44,
       "confidence": "high"
     },
@@ -3593,10 +3593,10 @@
       "confidence": "low"
     },
     "ip_ownership_assignment": {
-      "present": false,
-      "text": null,
-      "page": null,
-      "confidence": "low"
+      "present": true,
+      "text": "The Party granting the license is the sole and exclusive owner of the Intellectual Property Rights so licensed.",
+      "page": 10,
+      "confidence": "high"
     },
     "joint_ip_ownership": {
       "present": false,
@@ -3618,13 +3618,13 @@
     },
     "affiliate_license_licensor": {
       "present": true,
-      "text": "the applicable member of its Group",
+      "text": "a member of its Group",
       "page": 10,
       "confidence": "medium"
     },
     "affiliate_license_licensee": {
       "present": true,
-      "text": "a member of the Nuance Group",
+      "text": "a member of its Group",
       "page": 10,
       "confidence": "medium"
     },
@@ -3642,8 +3642,8 @@
     },
     "source_code_escrow": {
       "present": true,
-      "text": "Technology Assets other than to commercial source code escrow providers who are only permitted to make such source code available to third parties that have entered into an escrow agreement with a member of the Nuance Group and escrow provider.",
-      "page": 10,
+      "text": "Technology Assets other than to commercial source code escrow providers who are only permitted to make such source code available to third parties that have entered into an escrow agreement",
+      "page": 8,
       "confidence": "high"
     },
     "post_termination_services": {
@@ -3859,10 +3859,10 @@
       "confidence": "low"
     },
     "non_transferable_license": {
-      "present": false,
-      "text": null,
-      "page": null,
-      "confidence": "low"
+      "present": true,
+      "text": "Society membership rights and privileges cannot be transferred or assigned.",
+      "page": 2,
+      "confidence": "high"
     },
     "affiliate_license_licensor": {
       "present": false,
@@ -3975,10 +3975,10 @@
       "confidence": "high"
     },
     "parties": {
-      "present": false,
-      "text": null,
-      "page": null,
-      "confidence": "low"
+      "present": true,
+      "text": "a Party",
+      "page": 1,
+      "confidence": "medium"
     },
     "agreement_date": {
       "present": false,
@@ -3988,21 +3988,21 @@
     },
     "effective_date": {
       "present": true,
-      "text": "The 'Term' of this Agreement will commence on the Effective Date",
+      "text": "the Effective Date",
       "page": 1,
-      "confidence": "high"
+      "confidence": "medium"
     },
     "expiration_date": {
       "present": true,
-      "text": "the first anniversary of the expiration date of the last Purchase Schedule",
+      "text": "the expiration date of the last Purchase Schedule",
       "page": 1,
       "confidence": "high"
     },
     "renewal_term": {
-      "present": false,
-      "text": null,
-      "page": null,
-      "confidence": "low"
+      "present": true,
+      "text": "the first anniversary of the expiration date of the last Purchase Schedule",
+      "page": 1,
+      "confidence": "high"
     },
     "notice_period_to_terminate_renewal": {
       "present": true,
@@ -4012,8 +4012,8 @@
     },
     "governing_law": {
       "present": true,
-      "text": "in compliance with Applicable Law",
-      "page": 19,
+      "text": "Applicable Law",
+      "page": 15,
       "confidence": "medium"
     },
     "most_favored_nation": {

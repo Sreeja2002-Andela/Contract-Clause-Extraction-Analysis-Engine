@@ -8,7 +8,7 @@
         "level": "MEDIUM",
         "reason": "Indemnification clause present \u2014 review scope carefully.",
         "recommendation": "Ensure indemnification is mutual and capped.",
-        "extracted_text": "Company and Distributor agree to indemnify, defend and hold each other harmless from any and all suits, claims, obligations, liabilities, damages, losses and the like (including attorneys' fees and costs) relating to or arising out of: (A) any breach of any material representations, warranties, covenants, obligations, agreements or duties in connection with this Agreement",
+        "extracted_text": "Company and Distributor agree to indemnify, defend and hold each other harmless from any and all suits, claims, obligations, liabilities, damages, losses and the like",
         "page": 10
       },
       {
@@ -50,7 +50,7 @@
         "level": "MEDIUM",
         "reason": "Indemnification clause present \u2014 review scope carefully.",
         "recommendation": "Ensure indemnification is mutual and capped.",
-        "extracted_text": "The indemnification obligations set out in Clause 10.4(b) shall exist only if Google: (a) promptly notifies Distributor of such claim,",
+        "extracted_text": "The indemnification obligations set out in Clause 10.4(b) shall exist only if Google: (a) promptly notifies Distributor of such claim",
         "page": 13
       },
       {
@@ -100,7 +100,7 @@
         "level": "LOW",
         "reason": "Arbitration clause found. Court litigation may be waived.",
         "recommendation": "Review arbitration rules, venue, and cost allocation.",
-        "extracted_text": "All disputes in connection with this Contract or the execution thereof shall be settled friendly through negotiations. In case no settlement can be reached, the case may then be submitted for arbitration",
+        "extracted_text": "All disputes in connection with this Contract or the execution thereof shall be settled friendly through negotiations. In case no settlement can be reached, the case may then be submitted for arbitration to the Foreign Economic and Trade Arbitration Committee of the China Beijing Council for the Promotion of International Trade",
         "page": 4
       }
     ],
@@ -318,7 +318,7 @@
         "level": "HIGH",
         "reason": "Explicit uncapped liability clause found.",
         "recommendation": "Negotiate mutual cap on liability before signing.",
-        "extracted_text": "the termination of the JV Agreement with respect to VNBJ, VNBZ or the Veoneer Parties shall not release any Veoneer Party or any Nissin Party from liability for the breach of any of its representations, warranties, covenants or agreements",
+        "extracted_text": "shall not release any Veoneer Party or any Nissin Party from liability for the breach of any of its representations, warranties, covenants or agreements",
         "page": 2
       },
       {
@@ -410,7 +410,7 @@
         "level": "MEDIUM",
         "reason": "Indemnification clause present \u2014 review scope carefully.",
         "recommendation": "Ensure indemnification is mutual and capped.",
-        "extracted_text": "The indemnifying Party shall have the option to assume the defense thereof by election in writing within thirty (30) days of receipt of such notice",
+        "extracted_text": "The indemnifying Party shall have the option to assume the defense thereof by election in writing within thirty (30) days of receipt of such notice.",
         "page": 27
       },
       {
@@ -437,7 +437,7 @@
   },
   "MetLife__Inc__-_Remarketing_Agreement": {
     "overall_risk": "MEDIUM",
-    "risk_score": 50,
+    "risk_score": 35,
     "flags": [
       {
         "clause": "governing_law",
@@ -452,7 +452,7 @@
         "level": "MEDIUM",
         "reason": "Indemnification clause present \u2014 review scope carefully.",
         "recommendation": "Ensure indemnification is mutual and capped.",
-        "extracted_text": "then each indemnifying party shall contribute to the amount paid or payable by such indemnified party as a result of such losses, claims, damages or liabilities (or actions in respect thereof) in such proportion as is appropriate to reflect the relative benefits received by the Company on the one hand and the Remarketing Agents on the other from the Remarketing of the Remarketed Securities to which any such loss, claim, damage or liability (or action in respect thereof) relates.",
+        "extracted_text": "then each indemnifying party shall contribute to the amount paid or payable by such indemnified party as a result of such losses, claims, damages or liabilities",
         "page": 27
       },
       {
@@ -462,19 +462,11 @@
         "recommendation": "Add audit rights for revenue-sharing or royalty arrangements.",
         "extracted_text": null,
         "page": null
-      },
-      {
-        "clause": "class_action_waiver",
-        "level": "MEDIUM",
-        "reason": "Class action waiver found. May limit remedies.",
-        "recommendation": "Review enforceability in applicable jurisdiction.",
-        "extracted_text": "The Company and each of the Remarketing Agents hereby irrevocably waives, to the fullest extent permitted by applicable law, any and all right to trial by jury in any legal proceeding arising out of or relating to this Remarketing Agreement or the transactions contemplated hereby.",
-        "page": 33
       }
     ],
-    "summary": "3 medium-risk issues, 1 low-risk note",
+    "summary": "2 medium-risk issues, 1 low-risk note",
     "high_count": 0,
-    "medium_count": 3,
+    "medium_count": 2,
     "low_count": 1
   },
   "FTENETWORKS_INC_02_18_2016-EX-99_4-STRATEGIC_ALLIANCE_AGREEMENT": {
@@ -494,7 +486,7 @@
         "level": "MEDIUM",
         "reason": "Indemnification clause present \u2014 review scope carefully.",
         "recommendation": "Ensure indemnification is mutual and capped.",
-        "extracted_text": "Subcontractor shall indemnify, defend and hold harmless EDGE and Customer and both of their subsidiaries, directors, shareholders, partners, principals (disclosed or undisclosed), employees, agents and representatives (hereinafter the 'Indemnitees') from and against any and all claims, demands, damages, actions, causes of action, suits, losses, judgments, obligations, and any liabilities, costs and expenses",
+        "extracted_text": "Subcontractor shall indemnify, defend and hold harmless EDGE and Customer and both of their subsidiaries, directors, shareholders, partners, principals (disclosed or undisclosed), employees, agents and representatives",
         "page": 6
       },
       {
@@ -555,7 +547,7 @@
   },
   "PfHospitalityGroupInc_20150923_10-12G_EX-10_1_9266710_EX-10_1_Franchise_Agreemen": {
     "overall_risk": "HIGH",
-    "risk_score": 100,
+    "risk_score": 85,
     "flags": [
       {
         "clause": "cap_on_liability",
@@ -564,14 +556,6 @@
         "recommendation": "Negotiate a liability cap, typically 12 months of fees paid.",
         "extracted_text": null,
         "page": null
-      },
-      {
-        "clause": "uncapped_liability",
-        "level": "HIGH",
-        "reason": "Explicit uncapped liability clause found.",
-        "recommendation": "Negotiate mutual cap on liability before signing.",
-        "extracted_text": "You agree to pay all damages, costs, and expenses, including, but not limited to, reasonable attorneys' fees, that we incur",
-        "page": 45
       },
       {
         "clause": "governing_law",
@@ -594,16 +578,8 @@
         "level": "MEDIUM",
         "reason": "Non-compete clause found. May restrict future business activities.",
         "recommendation": "Review scope, duration, and geographic restrictions.",
-        "extracted_text": "the term 'Post-Term Period' shall mean a continuous uninterrupted period of two (2) years from the date of: (a) a transfer permitted under Section 14 of the Franchise Agreement;",
-        "page": 2
-      },
-      {
-        "clause": "anti_assignment",
-        "level": "LOW",
-        "reason": "No anti-assignment clause. Contract rights may be freely transferred.",
-        "recommendation": "Consider adding assignment restriction if partnership is key.",
-        "extracted_text": null,
-        "page": null
+        "extracted_text": "During that 30-day period, you agree not to dispose of, transfer, or otherwise hinder our ability to exercise our rights with respect to your assets.",
+        "page": 44
       },
       {
         "clause": "audit_rights",
@@ -622,10 +598,10 @@
         "page": 2
       }
     ],
-    "summary": "2 high-risk issues, 3 medium-risk issues, 3 low-risk notes",
-    "high_count": 2,
+    "summary": "1 high-risk issue, 3 medium-risk issues, 2 low-risk notes",
+    "high_count": 1,
     "medium_count": 3,
-    "low_count": 3
+    "low_count": 2
   },
   "CerenceInc_20191002_8-K_EX-10_4_11827494_EX-10_4_Intellectual_Property_Agreement": {
     "overall_risk": "HIGH",

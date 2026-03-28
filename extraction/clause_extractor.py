@@ -1,14 +1,5 @@
 """
 clause_extractor.py — Batched LLM extraction for all 41 CUAD clause categories.
-
-Improvements over v1:
-  1. ACCURACY   — Semantic batching (related clauses together), longer text quotes,
-                  confidence field, richer system prompt with examples.
-  2. JSON       — Smaller batches (10) to stay well under token limits, stricter
-                  validation, per-field fallback instead of silently dropping keys.
-  3. TOKEN COST — Contract text compressed once and reused across batches via a
-                  shared context cache; retrieval mode used aggressively for long
-                  contracts so we never repeat 8k-token inputs 3× per contract.
 """
 
 import json
