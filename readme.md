@@ -182,76 +182,90 @@ CUAD provides 13,000+ expert annotations across 41 categories. We compute precis
 ## ⚠️ Known Limitations & Failure Modes
 
 ### 1. Clause Extraction Variability
-High linguistic variation leads to false negatives, particularly for clauses like revenue sharing and joint IP ownership which vary significantly across SEC filings.
-* **Miss Rate:** ~30–40%
-* **F1 Score:** < 0.5 for these categories
-* **Root Cause:** Insufficient semantic recall from retrieval combined with generalized prompts.
-* **Impact:** Important clauses may be missed, negatively affecting downstream risk scoring.
+High linguistic variation causes false negatives, particularly for revenue sharing and joint IP ownership clauses which are expressed differently across SEC filings.
+* **Miss rate:** ~30–40% for high-variation categories.
+* **F1 score:** Below 0.5 for `revenue_profit_sharing` and `joint_ip_ownership`.
+* **Root cause:** The same concept is often expressed in semantically distant language. Dense retrieval partially bridges this but does not eliminate it completely.
+* **Current mitigation:** Semantic batch grouping ensures related clauses are evaluated together, which improves contextual reasoning.
 
-### 2. Context Window Constraints
-Contracts exceeding ~60,000 characters cannot be processed in a single pass. The system falls back to retrieval-based chunking, where only the top chunks per clause group are passed to the LLM.
-* **Limitation:** Loss of cross-clause reasoning and reduced contextual coherence.
-* **Impact:** Increased probability of missed or incomplete clause extraction.
+### 2. Partial Contract Processing
+Initial single-pass extraction failed silently on 4 out of 20 contracts due to context overflow. The LLM returned truncated JSON, which was saved as all-false extractions, collapsing recall and producing an overall F1 of 0.469.
+* **Result:** Silent failures are eliminated. Failed batches now return safe `present: false` defaults per category rather than crashing the pipeline.
 
-### 3. Table & Structured Data Extraction Issues
-Clauses embedded in tables (e.g., schedules, exhibits, payment milestones, territory restrictions) are not reliably extracted. During preprocessing, tables are flattened into plain text, and chunking breaks the logical structure.
-* **Impact:** These clauses are frequently skipped or misinterpreted by the model.
+### 3. Short vs. Long Contract Handling
+* **Contracts ≤ 6000 chars:** Processed using full compressed text across all batches.
+* **Contracts > 6000 chars:** Processed using per-batch targeted retrieval. Only chunks relevant to each batch's theme are fetched. This keeps input tokens low but loses cross-batch clause context (i.e., a clause spanning two semantic domains might be missed).
 
-### 4. Partial / Failed Contract Processing
-In initial testing, extraction succeeded for 16 contracts (ranging from 5 to 458 chunks per document), but complete or partial extraction failures were observed in 4 contracts. 
-* *Example:* One contract produced 85 chunks but only 7 were successfully extracted.
-* **Impact:** Missing clause data leading to incorrect risk classification (often defaulting to HIGH risk).
+### 4. Table & Structured Data Extraction
+Clauses embedded in tables, schedules, and exhibits are flattened to plain text during extraction. The chunking process breaks their logical structure, meaning these clauses are frequently missed or misinterpreted.
 
 ### 5. Risk Scoring Bias (Expected Behavior)
-Currently, all 20 tested contracts were flagged as HIGH risk. **This is intentional and not a bug.**
-* **Reason:** Most commercial contracts lack at least one critical clause (e.g., Cap on liability, Termination for convenience, Governing law).
-* **Impact:** Risk scores accurately reflect actual contract quality based on stringent criteria, rather than a model error.
+Currently, all 20 tested contracts are flagged as **HIGH** risk. This is correct behavior, not a bug.
+* **Reasoning:** Most commercial contracts are missing at least one critical clause—such as a cap on liability, termination for convenience, or governing law. The risk score accurately reflects actual contract quality against these strict criteria.
 
-### 6. Model & Infrastructure Limitations
-* **API Constraints:** Rate limits from the Groq API (model: `llama-3.3-70b-versatile`) can slow down processing or cause required retries.
-* **Cold Start Latency:** The first ChromaDB embedding run downloads the sentence-transformers model (~90MB). Subsequent runs are cached.
-  * *Mitigation:* Pre-download the model using:
+### 6. Infrastructure Constraints
+* **Groq Rate Limits:** The `llama-3.3-70b-versatile` model has strict per-minute token limits. The retry logic rotates attempts, but sustained batch processing may still hit these limits. 
+  * *Tip:* Add `time.sleep(2)` between contracts if rate limiting persists.
+* **ChromaDB Cold Start:** The first embedding run must download the sentence-transformers model (~90MB), causing an initial delay. 
+  * *Mitigation:* Pre-cache the model before running a demo by executing the following command:
     ```bash
     python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
     ```
-    
 ---
 
-## 🛠️ Mitigation Strategies & Future Improvements
+## 📊 Extraction Evaluation Report
 
-### 1. Improve Clause Recall
-* Increase the number of retrieved chunks per clause category.
-* Transition from generic prompts to category-specific prompting.
-* Introduce few-shot examples for high-variance clauses.
+**Overall F1 Score: 0.475**
 
-### 2. Handle Long Documents Better
-* Implement sliding window chunking.
-* Utilize overlapping chunk retrieval to maintain boundaries.
-* Use hierarchical retrieval (section → clause) to preserve broader document context.
+### Interpretation Guide
+* **F1 > 0.7 (Strong):** Reliable for most use cases.
+* **0.5 ≤ F1 ≤ 0.7 (Moderate):** Good for high-recall needs; review high-risk flags.
+* **F1 < 0.5 (Weak):** Clause language is too varied for consistent extraction.
 
-### 3. Structured Data Handling
-* Integrate table-aware parsers to avoid plain text flattening.
-* Preserve table structure metadata before the chunking phase.
-* Apply specialized parsing logic specifically for schedules and exhibits.
+---
 
-### 4. Improve Dataset Coverage
-* Scale processing to 50–100 contracts directly from `CUADv1.json`.
-* Filter contracts based on chunk size (e.g., < 80–100 chunks) to establish a high-quality baseline.
-* **Benefit:** Higher success rates during LLM extraction and vastly improved evaluation coverage.
+### Performance by Category
 
-### 5. Reduce Extraction Failures
-* Add pre-flight validation checks to ensure minimum clause coverage per contract.
-* Implement dynamic retry logic for extraction using:
-  * Different chunk subsets.
-  * Adjusted retrieval thresholds.
+| Category | Precision | Recall | F1 Score | Support | Interpretation |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `license_grant` | 1.000 | 0.750 | 0.857 | 8 | Strong |
+| `insurance` | 0.667 | 0.857 | 0.750 | 7 | Strong |
+| `cap_on_liability` | 0.636 | 0.875 | 0.737 | 8 | Strong |
+| `anti_assignment` | 0.778 | 0.583 | 0.667 | 12 | Moderate |
+| `warranty_duration` | 1.000 | 0.500 | 0.667 | 4 | Moderate |
+| `irrevocable_or_perpetual_license` | 0.667 | 0.667 | 0.667 | 3 | Moderate |
+| `affiliate_license_licensee` | 0.667 | 0.667 | 0.667 | 3 | Moderate |
+| `change_of_control` | 0.600 | 0.600 | 0.600 | 5 | Moderate |
+| `termination_for_convenience` | 0.462 | 0.750 | 0.571 | 8 | Moderate |
+| `non_compete` | 1.000 | 0.400 | 0.571 | 5 | Moderate |
+| `minimum_commitment` | 0.667 | 0.500 | 0.571 | 4 | Moderate |
+| `ip_ownership_assignment` | 0.500 | 0.500 | 0.500 | 4 | Moderate |
+| `uncapped_liability` | 0.500 | 0.500 | 0.500 | 4 | Moderate |
+| `third_party_beneficiary` | 0.200 | 1.000 | 0.333 | 1 | Weak |
+| `covenant_not_to_sue` | 0.333 | 0.333 | 0.333 | 3 | Weak |
+| `governing_law` | 0.750 | 0.176 | 0.286 | 17 | Weak |
+| `audit_rights` | 0.500 | 0.200 | 0.286 | 5 | Weak |
+| `liquidated_damages` | 0.200 | 0.500 | 0.286 | 2 | Weak |
+| `revenue_profit_sharing` | 0.500 | 0.167 | 0.250 | 6 | Weak |
+| `arbitration` | 0.000 | 0.000 | 0.000 | 0 | Weak |
+| `indemnification` | 0.000 | 0.000 | 0.000 | 0 | Weak |
+| `non_disparagement` | 0.000 | 0.000 | 0.000 | 0 | Weak |
+| `no_solicitation` | 0.000 | 0.000 | 0.000 | 0 | Weak |
+| `exclusivity` | 0.000 | 0.000 | 0.000 | 5 | Weak |
+| `most_favored_nation` | 0.000 | 0.000 | 0.000 | 0 | Weak |
+| `price_restrictions` | 0.000 | 0.000 | 0.000 | 1 | Weak |
+| `volume_restriction` | 0.000 | 0.000 | 0.000 | 2 | Weak |
+| `joint_ip_ownership` | 0.000 | 0.000 | 0.000 | 1 | Weak |
+| `source_code_escrow` | 0.000 | 0.000 | 0.000 | 0 | Weak |
+| `post_termination_services` | 0.000 | 0.000 | 0.000 | 4 | Weak |
+| `unlimited_all_you_can_eat_license`| 0.000 | 0.000 | 0.000 | 0 | Weak |
+| `affiliate_license_licensor` | 0.000 | 0.000 | 0.000 | 0 | Weak |
+| `class_action_waiver` | 0.000 | 0.000 | 0.000 | 0 | Weak |
+| **OVERALL** | **0.483** | **0.467** | **0.475** | | |
 
-### 6. System Reliability Enhancements
-* Cache embeddings systematically before runtime to eliminate cold start delays.
-* Implement robust backoff and retry logic for API rate limits.
-* Batch process contracts to stabilize overall system throughput.
+---
+  
 ## Dataset
-
----
 
 **CUAD — Contract Understanding Atticus Dataset v1**
 - File: `CUADv1.json` (SQuAD format)
